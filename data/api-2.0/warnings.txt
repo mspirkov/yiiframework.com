@@ -1,0 +1,1914 @@
+Array
+(
+    [0] => Array
+        (
+            [line] => 391
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/BaseYii.php
+            [message] => No short description for Method 'getLogger'
+        )
+
+    [1] => Array
+        (
+            [line] => 77
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/ActionFilter.php
+            [message] => No short description for Method 'beforeFilter'
+        )
+
+    [2] => Array
+        (
+            [line] => 99
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/ActionFilter.php
+            [message] => No short description for Method 'afterFilter'
+        )
+
+    [3] => Array
+        (
+            [line] => 105
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/Controller.php
+            [message] => No short description for Method '__construct'
+        )
+
+    [4] => Array
+        (
+            [line] => 121
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/ErrorException.php
+            [message] => No short description for Method 'getName'
+        )
+
+    [5] => Array
+        (
+            [line] => 75
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/ErrorHandler.php
+            [message] => No docblock for element 'init'
+        )
+
+    [6] => Array
+        (
+            [line] => 23
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/Exception.php
+            [message] => No short description for Method 'getName'
+        )
+
+    [7] => Array
+        (
+            [line] => 46
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/InlineAction.php
+            [message] => No short description for Method '__construct'
+        )
+
+    [8] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/InvalidArgumentException.php
+            [message] => No short description for Method 'getName'
+        )
+
+    [9] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/InvalidCallException.php
+            [message] => No short description for Method 'getName'
+        )
+
+    [10] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/InvalidConfigException.php
+            [message] => No short description for Method 'getName'
+        )
+
+    [11] => Array
+        (
+            [line] => 22
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/InvalidParamException.php
+            [message] => No short description for Method 'getName'
+        )
+
+    [12] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/InvalidRouteException.php
+            [message] => No short description for Method 'getName'
+        )
+
+    [13] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/InvalidValueException.php
+            [message] => No short description for Method 'getName'
+        )
+
+    [14] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/NotSupportedException.php
+            [message] => No short description for Method 'getName'
+        )
+
+    [15] => Array
+        (
+            [line] => 105
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/Security.php
+            [message] => No short description for Method 'shouldUseLibreSSL'
+        )
+
+    [16] => Array
+        (
+            [line] => 91
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/Theme.php
+            [message] => No short description for Method 'getBaseUrl'
+        )
+
+    [17] => Array
+        (
+            [line] => 100
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/Theme.php
+            [message] => No short description for Method 'setBaseUrl'
+        )
+
+    [18] => Array
+        (
+            [line] => 111
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/Theme.php
+            [message] => No short description for Method 'getBasePath'
+        )
+
+    [19] => Array
+        (
+            [line] => 121
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/Theme.php
+            [message] => No short description for Method 'setBasePath'
+        )
+
+    [20] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/UnknownClassException.php
+            [message] => No short description for Method 'getName'
+        )
+
+    [21] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/UnknownMethodException.php
+            [message] => No short description for Method 'getName'
+        )
+
+    [22] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/UnknownPropertyException.php
+            [message] => No short description for Method 'getName'
+        )
+
+    [23] => Array
+        (
+            [line] => 272
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/View.php
+            [message] => No short description for Method 'getViewFile'
+        )
+
+    [24] => Array
+        (
+            [line] => 281
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/View.php
+            [message] => No short description for Method 'getRequestedViewFile'
+        )
+
+    [25] => Array
+        (
+            [line] => 23
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/ViewContextInterface.php
+            [message] => No short description for Method 'getViewPath'
+        )
+
+    [26] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/base/ViewNotFoundException.php
+            [message] => No short description for Method 'getName'
+        )
+
+    [27] => Array
+        (
+            [line] => 87
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/caching/DbCache.php
+            [message] => No docblock for element '$isVarbinaryDataField'
+        )
+
+    [28] => Array
+        (
+            [line] => 87
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/caching/DbCache.php
+            [message] => No short description for element '$isVarbinaryDataField'
+        )
+
+    [29] => Array
+        (
+            [line] => 305
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/caching/DbCache.php
+            [message] => No short description for Method 'isVarbinaryDataField'
+        )
+
+    [30] => Array
+        (
+            [line] => 318
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/caching/DbCache.php
+            [message] => No short description for Method 'getDataFieldName'
+        )
+
+    [31] => Array
+        (
+            [line] => 327
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/caching/DbCache.php
+            [message] => No short description for Method 'getDataFieldValue'
+        )
+
+    [32] => Array
+        (
+            [line] => 255
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/caching/MemCache.php
+            [message] => No short description for Method 'setServers'
+        )
+
+    [33] => Array
+        (
+            [line] => 20
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/captcha/CaptchaAsset.php
+            [message] => No docblock for element '$sourcePath'
+        )
+
+    [34] => Array
+        (
+            [line] => 20
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/captcha/CaptchaAsset.php
+            [message] => No short description for element '$sourcePath'
+        )
+
+    [35] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/captcha/CaptchaAsset.php
+            [message] => No docblock for element '$js'
+        )
+
+    [36] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/captcha/CaptchaAsset.php
+            [message] => No short description for element '$js'
+        )
+
+    [37] => Array
+        (
+            [line] => 24
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/captcha/CaptchaAsset.php
+            [message] => No docblock for element '$depends'
+        )
+
+    [38] => Array
+        (
+            [line] => 24
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/captcha/CaptchaAsset.php
+            [message] => No short description for element '$depends'
+        )
+
+    [39] => Array
+        (
+            [line] => 733
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/console/Controller.php
+            [message] => No short description for Method 'getActionMethodReflection'
+        )
+
+    [40] => Array
+        (
+            [line] => 23
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/console/Exception.php
+            [message] => No short description for Method 'getName'
+        )
+
+    [41] => Array
+        (
+            [line] => 28
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/console/UnknownCommandException.php
+            [message] => No short description for element '$application'
+        )
+
+    [42] => Array
+        (
+            [line] => 49
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/console/UnknownCommandException.php
+            [message] => No short description for Method 'getName'
+        )
+
+    [43] => Array
+        (
+            [line] => 561
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/console/controllers/HelpController.php
+            [message] => No short description for Method 'formatOptionAliases'
+        )
+
+    [44] => Array
+        (
+            [line] => 575
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/console/controllers/HelpController.php
+            [message] => No short description for Method 'getScriptName'
+        )
+
+    [45] => Array
+        (
+            [line] => 953
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/console/controllers/MessageController.php
+            [message] => No short description for Method 'initConfig'
+        )
+
+    [46] => Array
+        (
+            [line] => 135
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/console/controllers/ServeController.php
+            [message] => No docblock for element 'runCommand'
+        )
+
+    [47] => Array
+        (
+            [line] => 128
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/console/controllers/ServeController.php
+            [message] => No short description for Method 'isAddressTaken'
+        )
+
+    [48] => Array
+        (
+            [line] => 139
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/console/controllers/ServeController.php
+            [message] => No docblock for element 'runCommand'
+        )
+
+    [49] => Array
+        (
+            [line] => 191
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/console/widgets/Table.php
+            [message] => No short description for Method 'run'
+        )
+
+    [50] => Array
+        (
+            [line] => 85
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/data/ActiveDataFilter.php
+            [message] => No short description for Method 'buildCondition'
+        )
+
+    [51] => Array
+        (
+            [line] => 195
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/data/ActiveDataProvider.php
+            [message] => No docblock for element '__clone'
+        )
+
+    [52] => Array
+        (
+            [line] => 269
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/data/DataFilter.php
+            [message] => No short description for Method 'getFilter'
+        )
+
+    [53] => Array
+        (
+            [line] => 277
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/data/DataFilter.php
+            [message] => No short description for Method 'setFilter'
+        )
+
+    [54] => Array
+        (
+            [line] => 286
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/data/DataFilter.php
+            [message] => No short description for Method 'getSearchModel'
+        )
+
+    [55] => Array
+        (
+            [line] => 302
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/data/DataFilter.php
+            [message] => No short description for Method 'setSearchModel'
+        )
+
+    [56] => Array
+        (
+            [line] => 313
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/data/DataFilter.php
+            [message] => No short description for Method 'getSearchAttributeTypes'
+        )
+
+    [57] => Array
+        (
+            [line] => 324
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/data/DataFilter.php
+            [message] => No short description for Method 'setSearchAttributeTypes'
+        )
+
+    [58] => Array
+        (
+            [line] => 397
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/data/DataFilter.php
+            [message] => No short description for Method 'getErrorMessages'
+        )
+
+    [59] => Array
+        (
+            [line] => 66
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/data/DataProviderInterface.php
+            [message] => No short description for Method 'getSort'
+        )
+
+    [60] => Array
+        (
+            [line] => 71
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/data/DataProviderInterface.php
+            [message] => No short description for Method 'getPagination'
+        )
+
+    [61] => Array
+        (
+            [line] => 151
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/data/Pagination.php
+            [message] => No short description for Method 'getPageCount'
+        )
+
+    [62] => Array
+        (
+            [line] => 232
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/data/Pagination.php
+            [message] => No short description for Method 'setPageSize'
+        )
+
+    [63] => Array
+        (
+            [line] => 293
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/data/Pagination.php
+            [message] => No short description for Method 'getOffset'
+        )
+
+    [64] => Array
+        (
+            [line] => 305
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/data/Pagination.php
+            [message] => No short description for Method 'getLimit'
+        )
+
+    [65] => Array
+        (
+            [line] => 886
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/ActiveQuery.php
+            [message] => No short description for Method 'getPrimaryTableName'
+        )
+
+    [66] => Array
+        (
+            [line] => 77
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/ArrayExpression.php
+            [message] => No short description for Method 'getType'
+        )
+
+    [67] => Array
+        (
+            [line] => 85
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/ArrayExpression.php
+            [message] => No short description for Method 'getValue'
+        )
+
+    [68] => Array
+        (
+            [line] => 93
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/ArrayExpression.php
+            [message] => No short description for Method 'getDimension'
+        )
+
+    [69] => Array
+        (
+            [line] => 824
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/BaseActiveRecord.php
+            [message] => No short description for Method 'updateInternal'
+        )
+
+    [70] => Array
+        (
+            [line] => 297
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/ColumnSchemaBuilder.php
+            [message] => No short description for Method 'getCategoryMap'
+        )
+
+    [71] => Array
+        (
+            [line] => 306
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/ColumnSchemaBuilder.php
+            [message] => No short description for Method 'setCategoryMap'
+        )
+
+    [72] => Array
+        (
+            [line] => 42
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/Exception.php
+            [message] => No short description for Method 'getName'
+        )
+
+    [73] => Array
+        (
+            [line] => 50
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/Exception.php
+            [message] => No short description for Method '__toString'
+        )
+
+    [74] => Array
+        (
+            [line] => 22
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/ExpressionBuilderTrait.php
+            [message] => No short description for element '$queryBuilder'
+        )
+
+    [75] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/IntegrityException.php
+            [message] => No short description for Method 'getName'
+        )
+
+    [76] => Array
+        (
+            [line] => 66
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/JsonExpression.php
+            [message] => No short description for Method 'getValue'
+        )
+
+    [77] => Array
+        (
+            [line] => 75
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/JsonExpression.php
+            [message] => No short description for Method 'getType'
+        )
+
+    [78] => Array
+        (
+            [line] => 54
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/PdoValue.php
+            [message] => No short description for Method 'getValue'
+        )
+
+    [79] => Array
+        (
+            [line] => 62
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/PdoValue.php
+            [message] => No short description for Method 'getType'
+        )
+
+    [80] => Array
+        (
+            [line] => 758
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/Query.php
+            [message] => No short description for Method 'getUnaliasedColumnsFromSelect'
+        )
+
+    [81] => Array
+        (
+            [line] => 551
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/QueryBuilder.php
+            [message] => No short description for Method 'prepareUpsertColumns'
+        )
+
+    [82] => Array
+        (
+            [line] => 1241
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/QueryBuilder.php
+            [message] => No short description for Method 'buildSelect'
+        )
+
+    [83] => Array
+        (
+            [line] => 1284
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/QueryBuilder.php
+            [message] => No short description for Method 'buildFrom'
+        )
+
+    [84] => Array
+        (
+            [line] => 1301
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/QueryBuilder.php
+            [message] => No short description for Method 'buildJoin'
+        )
+
+    [85] => Array
+        (
+            [line] => 1362
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/QueryBuilder.php
+            [message] => No short description for Method 'buildWhere'
+        )
+
+    [86] => Array
+        (
+            [line] => 1373
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/QueryBuilder.php
+            [message] => No short description for Method 'buildGroupBy'
+        )
+
+    [87] => Array
+        (
+            [line] => 1394
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/QueryBuilder.php
+            [message] => No short description for Method 'buildHaving'
+        )
+
+    [88] => Array
+        (
+            [line] => 1427
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/QueryBuilder.php
+            [message] => No short description for Method 'buildOrderBy'
+        )
+
+    [89] => Array
+        (
+            [line] => 1449
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/QueryBuilder.php
+            [message] => No short description for Method 'buildLimit'
+        )
+
+    [90] => Array
+        (
+            [line] => 1487
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/QueryBuilder.php
+            [message] => No short description for Method 'buildUnion'
+        )
+
+    [91] => Array
+        (
+            [line] => 1514
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/QueryBuilder.php
+            [message] => No short description for Method 'buildWithQueries'
+        )
+
+    [92] => Array
+        (
+            [line] => 252
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/Schema.php
+            [message] => No short description for Method 'getQueryBuilder'
+        )
+
+    [93] => Array
+        (
+            [line] => 384
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/Schema.php
+            [message] => No short description for Method 'supportsSavepoint'
+        )
+
+    [94] => Array
+        (
+            [line] => 40
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/SchemaBuilderTrait.php
+            [message] => No short description for Method 'getDb'
+        )
+
+    [95] => Array
+        (
+            [line] => 14
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/StaleObjectException.php
+            [message] => No short description for Class 'yii\db\StaleObjectException'
+        )
+
+    [96] => Array
+        (
+            [line] => 19
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/StaleObjectException.php
+            [message] => No short description for Method 'getName'
+        )
+
+    [97] => Array
+        (
+            [line] => 245
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/Transaction.php
+            [message] => No short description for Method 'getLevel'
+        )
+
+    [98] => Array
+        (
+            [line] => 81
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/BetweenColumnsCondition.php
+            [message] => No short description for Method 'getOperator'
+        )
+
+    [99] => Array
+        (
+            [line] => 89
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/BetweenColumnsCondition.php
+            [message] => No short description for Method 'getValue'
+        )
+
+    [100] => Array
+        (
+            [line] => 97
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/BetweenColumnsCondition.php
+            [message] => No short description for Method 'getIntervalStartColumn'
+        )
+
+    [101] => Array
+        (
+            [line] => 105
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/BetweenColumnsCondition.php
+            [message] => No short description for Method 'getIntervalEndColumn'
+        )
+
+    [102] => Array
+        (
+            [line] => 58
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/BetweenCondition.php
+            [message] => No short description for Method 'getOperator'
+        )
+
+    [103] => Array
+        (
+            [line] => 66
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/BetweenCondition.php
+            [message] => No short description for Method 'getColumn'
+        )
+
+    [104] => Array
+        (
+            [line] => 74
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/BetweenCondition.php
+            [message] => No short description for Method 'getIntervalStart'
+        )
+
+    [105] => Array
+        (
+            [line] => 82
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/BetweenCondition.php
+            [message] => No short description for Method 'getIntervalEnd'
+        )
+
+    [106] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/ConjunctionCondition.php
+            [message] => No short description for element '$expressions'
+        )
+
+    [107] => Array
+        (
+            [line] => 27
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/ConjunctionCondition.php
+            [message] => No short description for Method '__construct'
+        )
+
+    [108] => Array
+        (
+            [line] => 35
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/ConjunctionCondition.php
+            [message] => No short description for Method 'getExpressions'
+        )
+
+    [109] => Array
+        (
+            [line] => 59
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/ExistsCondition.php
+            [message] => No short description for Method 'getOperator'
+        )
+
+    [110] => Array
+        (
+            [line] => 67
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/ExistsCondition.php
+            [message] => No short description for Method 'getQuery'
+        )
+
+    [111] => Array
+        (
+            [line] => 38
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/HashCondition.php
+            [message] => No short description for Method 'getHash'
+        )
+
+    [112] => Array
+        (
+            [line] => 58
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/InCondition.php
+            [message] => No short description for Method 'getOperator'
+        )
+
+    [113] => Array
+        (
+            [line] => 66
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/InCondition.php
+            [message] => No short description for Method 'getColumn'
+        )
+
+    [114] => Array
+        (
+            [line] => 74
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/InCondition.php
+            [message] => No short description for Method 'getValues'
+        )
+
+    [115] => Array
+        (
+            [line] => 252
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/InConditionBuilder.php
+            [message] => No short description for Method 'getRawValuesFromTraversableObject'
+        )
+
+    [116] => Array
+        (
+            [line] => 35
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/LikeCondition.php
+            [message] => No short description for Method '__construct'
+        )
+
+    [117] => Array
+        (
+            [line] => 57
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/LikeCondition.php
+            [message] => No short description for Method 'getEscapingReplacements'
+        )
+
+    [118] => Array
+        (
+            [line] => 105
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/LikeConditionBuilder.php
+            [message] => No short description for Method 'parseOperator'
+        )
+
+    [119] => Array
+        (
+            [line] => 40
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/NotCondition.php
+            [message] => No short description for Method 'getCondition'
+        )
+
+    [120] => Array
+        (
+            [line] => 47
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/NotConditionBuilder.php
+            [message] => No short description for Method 'getNegationOperator'
+        )
+
+    [121] => Array
+        (
+            [line] => 52
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/SimpleCondition.php
+            [message] => No short description for Method 'getOperator'
+        )
+
+    [122] => Array
+        (
+            [line] => 60
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/SimpleCondition.php
+            [message] => No short description for Method 'getColumn'
+        )
+
+    [123] => Array
+        (
+            [line] => 68
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/conditions/SimpleCondition.php
+            [message] => No short description for Method 'getValue'
+        )
+
+    [124] => Array
+        (
+            [line] => 24
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/mssql/ColumnSchemaBuilder.php
+            [message] => No docblock for element '$format'
+        )
+
+    [125] => Array
+        (
+            [line] => 24
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/mssql/ColumnSchemaBuilder.php
+            [message] => No short description for element '$format'
+        )
+
+    [126] => Array
+        (
+            [line] => 75
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/mssql/ColumnSchemaBuilder.php
+            [message] => No short description for Method 'isUnique'
+        )
+
+    [127] => Array
+        (
+            [line] => 451
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/mssql/QueryBuilder.php
+            [message] => No short description for Method 'isOldMssql'
+        )
+
+    [128] => Array
+        (
+            [line] => 538
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/mysql/Schema.php
+            [message] => No short description for Method 'isOldMysql'
+        )
+
+    [129] => Array
+        (
+            [line] => 387
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/oci/Schema.php
+            [message] => No short description for Method 'getLastInsertID'
+        )
+
+    [130] => Array
+        (
+            [line] => 106
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/pgsql/ArrayExpressionBuilder.php
+            [message] => No short description for Method 'getTypehint'
+        )
+
+    [131] => Array
+        (
+            [line] => 54
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/db/pgsql/JsonExpressionBuilder.php
+            [message] => No short description for Method 'getTypecast'
+        )
+
+    [132] => Array
+        (
+            [line] => 849
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/di/Container.php
+            [message] => No short description for Method 'setResolveArrays'
+        )
+
+    [133] => Array
+        (
+            [line] => 35
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/di/NotInstantiableException.php
+            [message] => No short description for Method 'getName'
+        )
+
+    [134] => Array
+        (
+            [line] => 201
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/filters/AccessRule.php
+            [message] => No short description for Method 'matchAction'
+        )
+
+    [135] => Array
+        (
+            [line] => 213
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/filters/AccessRule.php
+            [message] => No short description for Method 'matchController'
+        )
+
+    [136] => Array
+        (
+            [line] => 237
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/filters/AccessRule.php
+            [message] => No short description for Method 'matchRole'
+        )
+
+    [137] => Array
+        (
+            [line] => 279
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/filters/AccessRule.php
+            [message] => No short description for Method 'matchIP'
+        )
+
+    [138] => Array
+        (
+            [line] => 309
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/filters/AccessRule.php
+            [message] => No short description for Method 'matchVerb'
+        )
+
+    [139] => Array
+        (
+            [line] => 321
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/filters/AccessRule.php
+            [message] => No short description for Method 'matchCustom'
+        )
+
+    [140] => Array
+        (
+            [line] => 330
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/filters/PageCache.php
+            [message] => No short description for Method 'calculateCacheKey'
+        )
+
+    [141] => Array
+        (
+            [line] => 98
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/filters/VerbFilter.php
+            [message] => No short description for Method 'beforeAction'
+        )
+
+    [142] => Array
+        (
+            [line] => 20
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/grid/GridViewAsset.php
+            [message] => No docblock for element '$sourcePath'
+        )
+
+    [143] => Array
+        (
+            [line] => 20
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/grid/GridViewAsset.php
+            [message] => No short description for element '$sourcePath'
+        )
+
+    [144] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/grid/GridViewAsset.php
+            [message] => No docblock for element '$js'
+        )
+
+    [145] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/grid/GridViewAsset.php
+            [message] => No short description for element '$js'
+        )
+
+    [146] => Array
+        (
+            [line] => 24
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/grid/GridViewAsset.php
+            [message] => No docblock for element '$depends'
+        )
+
+    [147] => Array
+        (
+            [line] => 24
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/grid/GridViewAsset.php
+            [message] => No short description for element '$depends'
+        )
+
+    [148] => Array
+        (
+            [line] => 930
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/helpers/BaseFileHelper.php
+            [message] => No short description for Method 'normalizeOptions'
+        )
+
+    [149] => Array
+        (
+            [line] => 569
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/helpers/BaseInflector.php
+            [message] => No short description for Method 'hasIntl'
+        )
+
+    [150] => Array
+        (
+            [line] => 93
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/helpers/BaseMarkdown.php
+            [message] => No short description for Method 'getParser'
+        )
+
+    [151] => Array
+        (
+            [line] => 440
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/helpers/BaseUrl.php
+            [message] => No short description for Method 'getUrlManager'
+        )
+
+    [152] => Array
+        (
+            [line] => 159
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/i18n/I18N.php
+            [message] => No short description for Method 'setMessageFormatter'
+        )
+
+    [153] => Array
+        (
+            [line] => 142
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/log/Dispatcher.php
+            [message] => No short description for Method 'getTraceLevel'
+        )
+
+    [154] => Array
+        (
+            [line] => 153
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/log/Dispatcher.php
+            [message] => No short description for Method 'setTraceLevel'
+        )
+
+    [155] => Array
+        (
+            [line] => 162
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/log/Dispatcher.php
+            [message] => No short description for Method 'getFlushInterval'
+        )
+
+    [156] => Array
+        (
+            [line] => 175
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/log/Dispatcher.php
+            [message] => No short description for Method 'setFlushInterval'
+        )
+
+    [157] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/log/LogRuntimeException.php
+            [message] => No short description for Method 'getName'
+        )
+
+    [158] => Array
+        (
+            [line] => 200
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/log/Target.php
+            [message] => No short description for Method 'getLevels'
+        )
+
+    [159] => Array
+        (
+            [line] => 117
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/mail/BaseMailer.php
+            [message] => No short description for Method 'setView'
+        )
+
+    [160] => Array
+        (
+            [line] => 128
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/mail/BaseMailer.php
+            [message] => No short description for Method 'getView'
+        )
+
+    [161] => Array
+        (
+            [line] => 342
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/mail/BaseMailer.php
+            [message] => No short description for Method 'generateMessageFileName'
+        )
+
+    [162] => Array
+        (
+            [line] => 354
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/mail/BaseMailer.php
+            [message] => No short description for Method 'getViewPath'
+        )
+
+    [163] => Array
+        (
+            [line] => 367
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/mail/BaseMailer.php
+            [message] => No short description for Method 'setViewPath'
+        )
+
+    [164] => Array
+        (
+            [line] => 1022
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rbac/DbManager.php
+            [message] => No docblock for element 'invalidateCache'
+        )
+
+    [165] => Array
+        (
+            [line] => 1043
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rbac/DbManager.php
+            [message] => No docblock for element 'loadFromCache'
+        )
+
+    [166] => Array
+        (
+            [line] => 67
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rbac/PhpManager.php
+            [message] => No short description for element '$items'
+        )
+
+    [167] => Array
+        (
+            [line] => 71
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rbac/PhpManager.php
+            [message] => No short description for element '$children'
+        )
+
+    [168] => Array
+        (
+            [line] => 75
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rbac/PhpManager.php
+            [message] => No short description for element '$assignments'
+        )
+
+    [169] => Array
+        (
+            [line] => 79
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rbac/PhpManager.php
+            [message] => No short description for element '$rules'
+        )
+
+    [170] => Array
+        (
+            [line] => 114
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/IndexAction.php
+            [message] => No short description for Method 'run'
+        )
+
+    [171] => Array
+        (
+            [line] => 173
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/Serializer.php
+            [message] => No short description for Method 'getRequestedFields'
+        )
+
+    [172] => Array
+        (
+            [line] => 144
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/test/ActiveFixture.php
+            [message] => No short description for Method 'getTableSchema'
+        )
+
+    [173] => Array
+        (
+            [line] => 134
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/EmailValidator.php
+            [message] => No short description for Method 'isDNSValid'
+        )
+
+    [174] => Array
+        (
+            [line] => 278
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/IpValidator.php
+            [message] => No short description for Method 'getRanges'
+        )
+
+    [175] => Array
+        (
+            [line] => 20
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/PunycodeAsset.php
+            [message] => No docblock for element '$sourcePath'
+        )
+
+    [176] => Array
+        (
+            [line] => 20
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/PunycodeAsset.php
+            [message] => No short description for element '$sourcePath'
+        )
+
+    [177] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/PunycodeAsset.php
+            [message] => No docblock for element '$js'
+        )
+
+    [178] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/PunycodeAsset.php
+            [message] => No short description for element '$js'
+        )
+
+    [179] => Array
+        (
+            [line] => 32
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/TrimValidator.php
+            [message] => No short description for element '$skipOnEmpty'
+        )
+
+    [180] => Array
+        (
+            [line] => 38
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/TrimValidator.php
+            [message] => No short description for Method 'validateAttribute'
+        )
+
+    [181] => Array
+        (
+            [line] => 62
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/TrimValidator.php
+            [message] => No short description for Method 'clientValidateAttribute'
+        )
+
+    [182] => Array
+        (
+            [line] => 77
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/TrimValidator.php
+            [message] => No short description for Method 'getClientOptions'
+        )
+
+    [183] => Array
+        (
+            [line] => 86
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/UniqueValidator.php
+            [message] => No short description for element '$comboNotUnique'
+        )
+
+    [184] => Array
+        (
+            [line] => 20
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/ValidationAsset.php
+            [message] => No docblock for element '$sourcePath'
+        )
+
+    [185] => Array
+        (
+            [line] => 20
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/ValidationAsset.php
+            [message] => No short description for element '$sourcePath'
+        )
+
+    [186] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/ValidationAsset.php
+            [message] => No docblock for element '$js'
+        )
+
+    [187] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/ValidationAsset.php
+            [message] => No short description for element '$js'
+        )
+
+    [188] => Array
+        (
+            [line] => 24
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/ValidationAsset.php
+            [message] => No docblock for element '$depends'
+        )
+
+    [189] => Array
+        (
+            [line] => 24
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/ValidationAsset.php
+            [message] => No short description for element '$depends'
+        )
+
+    [190] => Array
+        (
+            [line] => 133
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
+            [message] => No short description for Method 'getHomeUrl'
+        )
+
+    [191] => Array
+        (
+            [line] => 149
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
+            [message] => No short description for Method 'setHomeUrl'
+        )
+
+    [192] => Array
+        (
+            [line] => 383
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/AssetManager.php
+            [message] => No short description for Method 'resolveAsset'
+        )
+
+    [193] => Array
+        (
+            [line] => 504
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/ErrorHandler.php
+            [message] => No short description for Method 'shouldRenderSimpleHtml'
+        )
+
+    [194] => Array
+        (
+            [line] => 54
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/HttpException.php
+            [message] => No short description for Method 'getName'
+        )
+
+    [195] => Array
+        (
+            [line] => 18
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/JqueryAsset.php
+            [message] => No docblock for element '$sourcePath'
+        )
+
+    [196] => Array
+        (
+            [line] => 18
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/JqueryAsset.php
+            [message] => No short description for element '$sourcePath'
+        )
+
+    [197] => Array
+        (
+            [line] => 19
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/JqueryAsset.php
+            [message] => No docblock for element '$js'
+        )
+
+    [198] => Array
+        (
+            [line] => 19
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/JqueryAsset.php
+            [message] => No short description for element '$js'
+        )
+
+    [199] => Array
+        (
+            [line] => 89
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultipartFormDataParser.php
+            [message] => No short description for Method 'getUploadFileMaxSize'
+        )
+
+    [200] => Array
+        (
+            [line] => 101
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultipartFormDataParser.php
+            [message] => No short description for Method 'setUploadFileMaxSize'
+        )
+
+    [201] => Array
+        (
+            [line] => 109
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultipartFormDataParser.php
+            [message] => No short description for Method 'getUploadFileMaxCount'
+        )
+
+    [202] => Array
+        (
+            [line] => 121
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultipartFormDataParser.php
+            [message] => No short description for Method 'setUploadFileMaxCount'
+        )
+
+    [203] => Array
+        (
+            [line] => 1361
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
+            [message] => No short description for Method 'getAuthUser'
+        )
+
+    [204] => Array
+        (
+            [line] => 1370
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
+            [message] => No short description for Method 'getAuthPassword'
+        )
+
+    [205] => Array
+        (
+            [line] => 1383
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
+            [message] => No short description for Method 'getAuthCredentials'
+        )
+
+    [206] => Array
+        (
+            [line] => 1576
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
+            [message] => No short description for Method 'setAcceptableLanguages'
+        )
+
+    [207] => Array
+        (
+            [line] => 1856
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
+            [message] => No short description for Method 'getCsrfTokenFromHeader'
+        )
+
+    [208] => Array
+        (
+            [line] => 268
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
+            [message] => No short description for Method 'getStatusCode'
+        )
+
+    [209] => Array
+        (
+            [line] => 986
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
+            [message] => No short description for Method 'getIsInvalid'
+        )
+
+    [210] => Array
+        (
+            [line] => 994
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
+            [message] => No short description for Method 'getIsInformational'
+        )
+
+    [211] => Array
+        (
+            [line] => 1002
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
+            [message] => No short description for Method 'getIsSuccessful'
+        )
+
+    [212] => Array
+        (
+            [line] => 1010
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
+            [message] => No short description for Method 'getIsRedirection'
+        )
+
+    [213] => Array
+        (
+            [line] => 1018
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
+            [message] => No short description for Method 'getIsClientError'
+        )
+
+    [214] => Array
+        (
+            [line] => 1026
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
+            [message] => No short description for Method 'getIsServerError'
+        )
+
+    [215] => Array
+        (
+            [line] => 1034
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
+            [message] => No short description for Method 'getIsOk'
+        )
+
+    [216] => Array
+        (
+            [line] => 1042
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
+            [message] => No short description for Method 'getIsForbidden'
+        )
+
+    [217] => Array
+        (
+            [line] => 1050
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
+            [message] => No short description for Method 'getIsNotFound'
+        )
+
+    [218] => Array
+        (
+            [line] => 1058
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
+            [message] => No short description for Method 'getIsEmpty'
+        )
+
+    [219] => Array
+        (
+            [line] => 1066
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
+            [message] => No short description for Method 'defaultFormatters'
+        )
+
+    [220] => Array
+        (
+            [line] => 245
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
+            [message] => No short description for Method 'getIsActive'
+        )
+
+    [221] => Array
+        (
+            [line] => 385
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
+            [message] => No short description for Method 'getCookieParams'
+        )
+
+    [222] => Array
+        (
+            [line] => 488
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
+            [message] => No short description for Method 'getGCProbability'
+        )
+
+    [223] => Array
+        (
+            [line] => 503
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
+            [message] => No short description for Method 'setGCProbability'
+        )
+
+    [224] => Array
+        (
+            [line] => 519
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
+            [message] => No short description for Method 'getUseTransparentSessionID'
+        )
+
+    [225] => Array
+        (
+            [line] => 530
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
+            [message] => No short description for Method 'setUseTransparentSessionID'
+        )
+
+    [226] => Array
+        (
+            [line] => 543
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
+            [message] => No short description for Method 'getTimeout'
+        )
+
+    [227] => Array
+        (
+            [line] => 551
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
+            [message] => No short description for Method 'setTimeout'
+        )
+
+    [228] => Array
+        (
+            [line] => 566
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
+            [message] => No short description for Method 'setUseStrictMode'
+        )
+
+    [229] => Array
+        (
+            [line] => 586
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
+            [message] => No short description for Method 'getUseStrictMode'
+        )
+
+    [230] => Array
+        (
+            [line] => 759
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
+            [message] => No short description for Method 'has'
+        )
+
+    [231] => Array
+        (
+            [line] => 26
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/SessionHandler.php
+            [message] => No docblock for element '__construct'
+        )
+
+    [232] => Array
+        (
+            [line] => 34
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/SessionHandler.php
+            [message] => No short description for Method 'close'
+        )
+
+    [233] => Array
+        (
+            [line] => 42
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/SessionHandler.php
+            [message] => No short description for Method 'destroy'
+        )
+
+    [234] => Array
+        (
+            [line] => 50
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/SessionHandler.php
+            [message] => No short description for Method 'gc'
+        )
+
+    [235] => Array
+        (
+            [line] => 59
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/SessionHandler.php
+            [message] => No short description for Method 'open'
+        )
+
+    [236] => Array
+        (
+            [line] => 67
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/SessionHandler.php
+            [message] => No short description for Method 'read'
+        )
+
+    [237] => Array
+        (
+            [line] => 76
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/SessionHandler.php
+            [message] => No short description for Method 'write'
+        )
+
+    [238] => Array
+        (
+            [line] => 223
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/UploadedFile.php
+            [message] => No short description for Method 'getBaseName'
+        )
+
+    [239] => Array
+        (
+            [line] => 233
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/UploadedFile.php
+            [message] => No short description for Method 'getExtension'
+        )
+
+    [240] => Array
+        (
+            [line] => 242
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/UploadedFile.php
+            [message] => No short description for Method 'getHasError'
+        )
+
+    [241] => Array
+        (
+            [line] => 45
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/UrlNormalizerRedirectException.php
+            [message] => No short description for Method '__construct'
+        )
+
+    [242] => Array
+        (
+            [line] => 170
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/UrlRule.php
+            [message] => No short description for Method '__toString'
+        )
+
+    [243] => Array
+        (
+            [line] => 355
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/UrlRule.php
+            [message] => No short description for Method 'getNormalizer'
+        )
+
+    [244] => Array
+        (
+            [line] => 369
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/UrlRule.php
+            [message] => No short description for Method 'hasNormalizer'
+        )
+
+    [245] => Array
+        (
+            [line] => 178
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/View.php
+            [message] => No short description for element '$isPageEnded'
+        )
+
+    [246] => Array
+        (
+            [line] => 18
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/YiiAsset.php
+            [message] => No docblock for element '$sourcePath'
+        )
+
+    [247] => Array
+        (
+            [line] => 18
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/YiiAsset.php
+            [message] => No short description for element '$sourcePath'
+        )
+
+    [248] => Array
+        (
+            [line] => 19
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/YiiAsset.php
+            [message] => No docblock for element '$js'
+        )
+
+    [249] => Array
+        (
+            [line] => 19
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/YiiAsset.php
+            [message] => No short description for element '$js'
+        )
+
+    [250] => Array
+        (
+            [line] => 22
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/YiiAsset.php
+            [message] => No docblock for element '$depends'
+        )
+
+    [251] => Array
+        (
+            [line] => 22
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/YiiAsset.php
+            [message] => No short description for element '$depends'
+        )
+
+    [252] => Array
+        (
+            [line] => 20
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ActiveFormAsset.php
+            [message] => No docblock for element '$sourcePath'
+        )
+
+    [253] => Array
+        (
+            [line] => 20
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ActiveFormAsset.php
+            [message] => No short description for element '$sourcePath'
+        )
+
+    [254] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ActiveFormAsset.php
+            [message] => No docblock for element '$js'
+        )
+
+    [255] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ActiveFormAsset.php
+            [message] => No short description for element '$js'
+        )
+
+    [256] => Array
+        (
+            [line] => 24
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ActiveFormAsset.php
+            [message] => No docblock for element '$depends'
+        )
+
+    [257] => Array
+        (
+            [line] => 24
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ActiveFormAsset.php
+            [message] => No short description for element '$depends'
+        )
+
+    [258] => Array
+        (
+            [line] => 85
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/InputWidget.php
+            [message] => No short description for Method 'hasModel'
+        )
+
+    [259] => Array
+        (
+            [line] => 261
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/LinkPager.php
+            [message] => No short description for Method 'getPageRange'
+        )
+
+    [260] => Array
+        (
+            [line] => 22
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/MaskedInputAsset.php
+            [message] => No docblock for element '$sourcePath'
+        )
+
+    [261] => Array
+        (
+            [line] => 22
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/MaskedInputAsset.php
+            [message] => No short description for element '$sourcePath'
+        )
+
+    [262] => Array
+        (
+            [line] => 23
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/MaskedInputAsset.php
+            [message] => No docblock for element '$js'
+        )
+
+    [263] => Array
+        (
+            [line] => 23
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/MaskedInputAsset.php
+            [message] => No short description for element '$js'
+        )
+
+    [264] => Array
+        (
+            [line] => 26
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/MaskedInputAsset.php
+            [message] => No docblock for element '$depends'
+        )
+
+    [265] => Array
+        (
+            [line] => 26
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/MaskedInputAsset.php
+            [message] => No short description for element '$depends'
+        )
+
+    [266] => Array
+        (
+            [line] => 178
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Pjax.php
+            [message] => No short description for Method 'requiresPjax'
+        )
+
+    [267] => Array
+        (
+            [line] => 20
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/PjaxAsset.php
+            [message] => No docblock for element '$sourcePath'
+        )
+
+    [268] => Array
+        (
+            [line] => 20
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/PjaxAsset.php
+            [message] => No short description for element '$sourcePath'
+        )
+
+    [269] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/PjaxAsset.php
+            [message] => No docblock for element '$js'
+        )
+
+    [270] => Array
+        (
+            [line] => 21
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/PjaxAsset.php
+            [message] => No short description for element '$js'
+        )
+
+    [271] => Array
+        (
+            [line] => 24
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/PjaxAsset.php
+            [message] => No docblock for element '$depends'
+        )
+
+    [272] => Array
+        (
+            [line] => 24
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/PjaxAsset.php
+            [message] => No short description for element '$depends'
+        )
+
+)
