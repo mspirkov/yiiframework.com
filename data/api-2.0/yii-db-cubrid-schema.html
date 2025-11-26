@@ -471,6 +471,8 @@
 
 
 
+
+
 <a id="properties"></a>
 
 <div class="doc-property summary toggle-target-container">
@@ -530,7 +532,7 @@
                 </tr>
                                                 <tr id="$schemaChecks" class="inherited">
                     <td><a href="/doc/api/2.0/yii-db-cubrid-schema#$schemaChecks-detail">$schemaChecks</a></td>
-                    <td>\yii\db\CheckConstraint[][]</td>
+                    <td><a href="/doc/api/2.0/yii-db-checkconstraint">yii\db\CheckConstraint</a>[][]</td>
                     <td>Check constraints for all tables in the database.</td>
                     <td><a href="/doc/api/2.0/yii-db-constraintfindertrait">yii\db\ConstraintFinderTrait</a></td>
                 </tr>
@@ -542,13 +544,13 @@
                 </tr>
                                                 <tr id="$schemaForeignKeys" class="inherited">
                     <td><a href="/doc/api/2.0/yii-db-cubrid-schema#$schemaForeignKeys-detail">$schemaForeignKeys</a></td>
-                    <td>\yii\db\ForeignKeyConstraint[][]</td>
+                    <td><a href="/doc/api/2.0/yii-db-foreignkeyconstraint">yii\db\ForeignKeyConstraint</a>[][]</td>
                     <td>Foreign keys for all tables in the database.</td>
                     <td><a href="/doc/api/2.0/yii-db-constraintfindertrait">yii\db\ConstraintFinderTrait</a></td>
                 </tr>
                                                 <tr id="$schemaIndexes" class="inherited">
                     <td><a href="/doc/api/2.0/yii-db-cubrid-schema#$schemaIndexes-detail">$schemaIndexes</a></td>
-                    <td>\yii\db\IndexConstraint[][]</td>
+                    <td><a href="/doc/api/2.0/yii-db-indexconstraint">yii\db\IndexConstraint</a>[][]</td>
                     <td>Indexes for all tables in the database.</td>
                     <td><a href="/doc/api/2.0/yii-db-constraintfindertrait">yii\db\ConstraintFinderTrait</a></td>
                 </tr>
@@ -566,7 +568,7 @@
                 </tr>
                                                 <tr id="$schemaUniques" class="inherited">
                     <td><a href="/doc/api/2.0/yii-db-cubrid-schema#$schemaUniques-detail">$schemaUniques</a></td>
-                    <td>\yii\db\IndexConstraint[][]</td>
+                    <td><a href="/doc/api/2.0/yii-db-indexconstraint">yii\db\IndexConstraint</a>[][]</td>
                     <td>Unique constraints for all tables in the database.</td>
                     <td><a href="/doc/api/2.0/yii-db-constraintfindertrait">yii\db\ConstraintFinderTrait</a></td>
                 </tr>
@@ -3294,7 +3296,7 @@ and replace the percentage character '%' with <a href="/doc/api/2.0/yii-db-conne
                                             </div>
 
             <table class="detail-table table table-striped table-bordered table-hover">
-                <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">\yii\db\CheckConstraint[][]</span> <strong><a href="/doc/api/2.0/yii-db-constraintfindertrait#getSchemaChecks()-detail">getSchemaChecks</a></strong> ( <span class="signature-type"><a href="https://www.php.net/language.types.string">string</a></span> <span style="color: #0000BB">$schema&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">''</span>, <span class="signature-type"><a href="https://www.php.net/language.types.boolean">boolean</a></span> <span style="color: #0000BB">$refresh&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">false</span> )</td></tr>
+                <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="/doc/api/2.0/yii-db-checkconstraint">yii\db\CheckConstraint</a>[][]</span> <strong><a href="/doc/api/2.0/yii-db-constraintfindertrait#getSchemaChecks()-detail">getSchemaChecks</a></strong> ( <span class="signature-type"><a href="https://www.php.net/language.types.string">string</a></span> <span style="color: #0000BB">$schema&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">''</span>, <span class="signature-type"><a href="https://www.php.net/language.types.boolean">boolean</a></span> <span style="color: #0000BB">$refresh&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">false</span> )</td></tr>
 
                                                             <tr>
                             <td class="param-name-col"><span style="color: #0000BB">$schema</span></td>
@@ -3314,7 +3316,7 @@ cached data may be returned if available.</p>
                     
                                             <tr>
                             <th class="param-name-col">return</th>
-                            <td class="param-type-col">\yii\db\CheckConstraint[][]</td>
+                            <td class="param-type-col"><a href="/doc/api/2.0/yii-db-checkconstraint">yii\db\CheckConstraint</a>[][]</td>
                             <td class="param-desc-col">
                                 <p>Check constraints for all tables in the database.
 Each array element is an array of <a href="/doc/api/2.0/yii-db-checkconstraint">yii\db\CheckConstraint</a> or its child classes.</p>
@@ -3456,7 +3458,7 @@ Each array element is an array of <a href="/doc/api/2.0/yii-db-defaultvalueconst
                                             </div>
 
             <table class="detail-table table table-striped table-bordered table-hover">
-                <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">\yii\db\ForeignKeyConstraint[][]</span> <strong><a href="/doc/api/2.0/yii-db-constraintfindertrait#getSchemaForeignKeys()-detail">getSchemaForeignKeys</a></strong> ( <span class="signature-type"><a href="https://www.php.net/language.types.string">string</a></span> <span style="color: #0000BB">$schema&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">''</span>, <span class="signature-type"><a href="https://www.php.net/language.types.boolean">boolean</a></span> <span style="color: #0000BB">$refresh&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">false</span> )</td></tr>
+                <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="/doc/api/2.0/yii-db-foreignkeyconstraint">yii\db\ForeignKeyConstraint</a>[][]</span> <strong><a href="/doc/api/2.0/yii-db-constraintfindertrait#getSchemaForeignKeys()-detail">getSchemaForeignKeys</a></strong> ( <span class="signature-type"><a href="https://www.php.net/language.types.string">string</a></span> <span style="color: #0000BB">$schema&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">''</span>, <span class="signature-type"><a href="https://www.php.net/language.types.boolean">boolean</a></span> <span style="color: #0000BB">$refresh&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">false</span> )</td></tr>
 
                                                             <tr>
                             <td class="param-name-col"><span style="color: #0000BB">$schema</span></td>
@@ -3476,7 +3478,7 @@ cached data may be returned if available.</p>
                     
                                             <tr>
                             <th class="param-name-col">return</th>
-                            <td class="param-type-col">\yii\db\ForeignKeyConstraint[][]</td>
+                            <td class="param-type-col"><a href="/doc/api/2.0/yii-db-foreignkeyconstraint">yii\db\ForeignKeyConstraint</a>[][]</td>
                             <td class="param-desc-col">
                                 <p>Foreign keys for all tables in the database.
 Each array element is an array of <a href="/doc/api/2.0/yii-db-foreignkeyconstraint">yii\db\ForeignKeyConstraint</a> or its child classes.</p>
@@ -3537,7 +3539,7 @@ Each array element is an array of <a href="/doc/api/2.0/yii-db-foreignkeyconstra
                                             </div>
 
             <table class="detail-table table table-striped table-bordered table-hover">
-                <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">\yii\db\IndexConstraint[][]</span> <strong><a href="/doc/api/2.0/yii-db-constraintfindertrait#getSchemaIndexes()-detail">getSchemaIndexes</a></strong> ( <span class="signature-type"><a href="https://www.php.net/language.types.string">string</a></span> <span style="color: #0000BB">$schema&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">''</span>, <span class="signature-type"><a href="https://www.php.net/language.types.boolean">boolean</a></span> <span style="color: #0000BB">$refresh&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">false</span> )</td></tr>
+                <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="/doc/api/2.0/yii-db-indexconstraint">yii\db\IndexConstraint</a>[][]</span> <strong><a href="/doc/api/2.0/yii-db-constraintfindertrait#getSchemaIndexes()-detail">getSchemaIndexes</a></strong> ( <span class="signature-type"><a href="https://www.php.net/language.types.string">string</a></span> <span style="color: #0000BB">$schema&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">''</span>, <span class="signature-type"><a href="https://www.php.net/language.types.boolean">boolean</a></span> <span style="color: #0000BB">$refresh&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">false</span> )</td></tr>
 
                                                             <tr>
                             <td class="param-name-col"><span style="color: #0000BB">$schema</span></td>
@@ -3557,7 +3559,7 @@ cached data may be returned if available.</p>
                     
                                             <tr>
                             <th class="param-name-col">return</th>
-                            <td class="param-type-col">\yii\db\IndexConstraint[][]</td>
+                            <td class="param-type-col"><a href="/doc/api/2.0/yii-db-indexconstraint">yii\db\IndexConstraint</a>[][]</td>
                             <td class="param-desc-col">
                                 <p>Indexes for all tables in the database.
 Each array element is an array of <a href="/doc/api/2.0/yii-db-indexconstraint">yii\db\IndexConstraint</a> or its child classes.</p>
@@ -3875,7 +3877,7 @@ Each array element is an instance of <a href="/doc/api/2.0/yii-db-constraint">yi
                                             </div>
 
             <table class="detail-table table table-striped table-bordered table-hover">
-                <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">\yii\db\Constraint[][]</span> <strong><a href="/doc/api/2.0/yii-db-constraintfindertrait#getSchemaUniques()-detail">getSchemaUniques</a></strong> ( <span class="signature-type"><a href="https://www.php.net/language.types.string">string</a></span> <span style="color: #0000BB">$schema&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">''</span>, <span class="signature-type"><a href="https://www.php.net/language.types.boolean">boolean</a></span> <span style="color: #0000BB">$refresh&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">false</span> )</td></tr>
+                <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="/doc/api/2.0/yii-db-constraint">yii\db\Constraint</a>[][]</span> <strong><a href="/doc/api/2.0/yii-db-constraintfindertrait#getSchemaUniques()-detail">getSchemaUniques</a></strong> ( <span class="signature-type"><a href="https://www.php.net/language.types.string">string</a></span> <span style="color: #0000BB">$schema&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">''</span>, <span class="signature-type"><a href="https://www.php.net/language.types.boolean">boolean</a></span> <span style="color: #0000BB">$refresh&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">false</span> )</td></tr>
 
                                                             <tr>
                             <td class="param-name-col"><span style="color: #0000BB">$schema</span></td>
@@ -3895,7 +3897,7 @@ cached data may be returned if available.</p>
                     
                                             <tr>
                             <th class="param-name-col">return</th>
-                            <td class="param-type-col">\yii\db\Constraint[][]</td>
+                            <td class="param-type-col"><a href="/doc/api/2.0/yii-db-constraint">yii\db\Constraint</a>[][]</td>
                             <td class="param-desc-col">
                                 <p>Unique constraints for all tables in the database.
 Each array element is an array of <a href="/doc/api/2.0/yii-db-constraint">yii\db\Constraint</a> or its child classes.</p>

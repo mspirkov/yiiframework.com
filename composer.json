@@ -59,7 +59,8 @@
         "yiisoft/yii2-queue": "~2.3.3",
         "yiisoft/yii2-redis": "~2.0.0",
         "yiisoft/yii2-symfonymailer": "~3.0.0",
-        "zendframework/zend-feed": "^2.8"
+        "zendframework/zend-feed": "^2.8",
+        "phpdocumentor/type-resolver": "^1.11"
     },
     "require-dev": {
         "codeception/base": "^2.2.3",

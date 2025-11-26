@@ -5091,3575 +5091,3582 @@ Array
 
     [727] => Array
         (
+            [line] => 112
+            [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rbac/DbManager.php
+            [message] => Invalid tag: @since `protected` since 2.0.38.
+        )
+
+    [728] => Array
+        (
             [line] => 131
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rbac/DbManager.php
             [message] => Method checkAccess has no parent to inherit from in yii\rbac\DbManager.
         )
 
-    [728] => Array
+    [729] => Array
         (
             [line] => 103
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rbac/DbManager.php
             [message] => Property $rules conflicts with a defined getter getRules in yii\rbac\DbManager.
         )
 
-    [729] => Array
+    [730] => Array
         (
             [line] => 33
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rbac/DbManager.php
             [message] => Property $defaultRoles conflicts with a defined setter setDefaultRoles in yii\rbac\DbManager.
         )
 
-    [730] => Array
+    [731] => Array
         (
             [line] => 33
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rbac/DbManager.php
             [message] => Property $defaultRoles conflicts with a defined getter getDefaultRoles in yii\rbac\DbManager.
         )
 
-    [731] => Array
+    [732] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rbac/DbManager.php
             [message] => Property $defaultRoleInstances conflicts with a defined getter getDefaultRoleInstances in yii\rbac\DbManager.
         )
 
-    [732] => Array
+    [733] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rbac/DbManager.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\rbac\DbManager.
         )
 
-    [733] => Array
+    [734] => Array
         (
             [line] => 99
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rbac/PhpManager.php
             [message] => Method checkAccess has no parent to inherit from in yii\rbac\PhpManager.
         )
 
-    [734] => Array
+    [735] => Array
         (
             [line] => 79
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rbac/PhpManager.php
             [message] => Property $rules conflicts with a defined getter getRules in yii\rbac\PhpManager.
         )
 
-    [735] => Array
+    [736] => Array
         (
             [line] => 33
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rbac/PhpManager.php
             [message] => Property $defaultRoles conflicts with a defined setter setDefaultRoles in yii\rbac\PhpManager.
         )
 
-    [736] => Array
+    [737] => Array
         (
             [line] => 33
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rbac/PhpManager.php
             [message] => Property $defaultRoles conflicts with a defined getter getDefaultRoles in yii\rbac\PhpManager.
         )
 
-    [737] => Array
+    [738] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rbac/PhpManager.php
             [message] => Property $defaultRoleInstances conflicts with a defined getter getDefaultRoleInstances in yii\rbac\PhpManager.
         )
 
-    [738] => Array
+    [739] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rbac/PhpManager.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\rbac\PhpManager.
         )
 
-    [739] => Array
+    [740] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/Action.php
             [message] => Property $uniqueId conflicts with a defined getter getUniqueId in yii\rest\Action.
         )
 
-    [740] => Array
+    [741] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/Action.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\rest\Action.
         )
 
-    [741] => Array
+    [742] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/ActiveController.php
             [message] => Property $modules conflicts with a defined getter getModules in yii\rest\ActiveController.
         )
 
-    [742] => Array
+    [743] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/ActiveController.php
             [message] => Property $uniqueId conflicts with a defined getter getUniqueId in yii\rest\ActiveController.
         )
 
-    [743] => Array
+    [744] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/ActiveController.php
             [message] => Property $route conflicts with a defined getter getRoute in yii\rest\ActiveController.
         )
 
-    [744] => Array
+    [745] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/ActiveController.php
             [message] => Property $view conflicts with a defined getter getView in yii\rest\ActiveController.
         )
 
-    [745] => Array
+    [746] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/ActiveController.php
             [message] => Property $view conflicts with a defined setter setView in yii\rest\ActiveController.
         )
 
-    [746] => Array
+    [747] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/ActiveController.php
             [message] => Property $viewPath conflicts with a defined getter getViewPath in yii\rest\ActiveController.
         )
 
-    [747] => Array
+    [748] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/ActiveController.php
             [message] => Property $viewPath conflicts with a defined setter setViewPath in yii\rest\ActiveController.
         )
 
-    [748] => Array
+    [749] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/ActiveController.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\rest\ActiveController.
         )
 
-    [749] => Array
+    [750] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/Controller.php
             [message] => Property $modules conflicts with a defined getter getModules in yii\rest\Controller.
         )
 
-    [750] => Array
+    [751] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/Controller.php
             [message] => Property $uniqueId conflicts with a defined getter getUniqueId in yii\rest\Controller.
         )
 
-    [751] => Array
+    [752] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/Controller.php
             [message] => Property $route conflicts with a defined getter getRoute in yii\rest\Controller.
         )
 
-    [752] => Array
+    [753] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/Controller.php
             [message] => Property $view conflicts with a defined getter getView in yii\rest\Controller.
         )
 
-    [753] => Array
+    [754] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/Controller.php
             [message] => Property $view conflicts with a defined setter setView in yii\rest\Controller.
         )
 
-    [754] => Array
+    [755] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/Controller.php
             [message] => Property $viewPath conflicts with a defined getter getViewPath in yii\rest\Controller.
         )
 
-    [755] => Array
+    [756] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/Controller.php
             [message] => Property $viewPath conflicts with a defined setter setViewPath in yii\rest\Controller.
         )
 
-    [756] => Array
+    [757] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/Controller.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\rest\Controller.
         )
 
-    [757] => Array
+    [758] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/CreateAction.php
             [message] => Property $uniqueId conflicts with a defined getter getUniqueId in yii\rest\CreateAction.
         )
 
-    [758] => Array
+    [759] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/CreateAction.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\rest\CreateAction.
         )
 
-    [759] => Array
+    [760] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/DeleteAction.php
             [message] => Property $uniqueId conflicts with a defined getter getUniqueId in yii\rest\DeleteAction.
         )
 
-    [760] => Array
+    [761] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/DeleteAction.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\rest\DeleteAction.
         )
 
-    [761] => Array
+    [762] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/IndexAction.php
             [message] => Property $uniqueId conflicts with a defined getter getUniqueId in yii\rest\IndexAction.
         )
 
-    [762] => Array
+    [763] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/IndexAction.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\rest\IndexAction.
         )
 
-    [763] => Array
+    [764] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/OptionsAction.php
             [message] => Property $uniqueId conflicts with a defined getter getUniqueId in yii\rest\OptionsAction.
         )
 
-    [764] => Array
+    [765] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/OptionsAction.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\rest\OptionsAction.
         )
 
-    [765] => Array
+    [766] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/Serializer.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\rest\Serializer.
         )
 
-    [766] => Array
+    [767] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/UpdateAction.php
             [message] => Property $uniqueId conflicts with a defined getter getUniqueId in yii\rest\UpdateAction.
         )
 
-    [767] => Array
+    [768] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/UpdateAction.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\rest\UpdateAction.
         )
 
-    [768] => Array
+    [769] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/UrlRule.php
             [message] => Property $createUrlStatus conflicts with a defined getter getCreateUrlStatus in yii\rest\UrlRule.
         )
 
-    [769] => Array
+    [770] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/ViewAction.php
             [message] => Property $uniqueId conflicts with a defined getter getUniqueId in yii\rest\ViewAction.
         )
 
-    [770] => Array
+    [771] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/rest/ViewAction.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\rest\ViewAction.
         )
 
-    [771] => Array
+    [772] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/test/ActiveFixture.php
             [message] => Property $tableSchema conflicts with a defined getter getTableSchema in yii\test\ActiveFixture.
         )
 
-    [772] => Array
+    [773] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/test/ActiveFixture.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\test\ActiveFixture.
         )
 
-    [773] => Array
+    [774] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/test/ArrayFixture.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\test\ArrayFixture.
         )
 
-    [774] => Array
+    [775] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/test/BaseActiveFixture.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\test\BaseActiveFixture.
         )
 
-    [775] => Array
+    [776] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/test/DbFixture.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\test\DbFixture.
         )
 
-    [776] => Array
+    [777] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/test/Fixture.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\test\Fixture.
         )
 
-    [777] => Array
+    [778] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/test/InitDbFixture.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\test\InitDbFixture.
         )
 
-    [778] => Array
+    [779] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/BooleanValidator.php
             [message] => Property $validationAttributes conflicts with a defined getter getValidationAttributes in yii\validators\BooleanValidator.
         )
 
-    [779] => Array
+    [780] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/BooleanValidator.php
             [message] => Property $attributeNames conflicts with a defined getter getAttributeNames in yii\validators\BooleanValidator.
         )
 
-    [780] => Array
+    [781] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/BooleanValidator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\validators\BooleanValidator.
         )
 
-    [781] => Array
+    [782] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/CompareValidator.php
             [message] => Property $validationAttributes conflicts with a defined getter getValidationAttributes in yii\validators\CompareValidator.
         )
 
-    [782] => Array
+    [783] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/CompareValidator.php
             [message] => Property $attributeNames conflicts with a defined getter getAttributeNames in yii\validators\CompareValidator.
         )
 
-    [783] => Array
+    [784] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/CompareValidator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\validators\CompareValidator.
         )
 
-    [784] => Array
+    [785] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/DateValidator.php
             [message] => Property $validationAttributes conflicts with a defined getter getValidationAttributes in yii\validators\DateValidator.
         )
 
-    [785] => Array
+    [786] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/DateValidator.php
             [message] => Property $attributeNames conflicts with a defined getter getAttributeNames in yii\validators\DateValidator.
         )
 
-    [786] => Array
+    [787] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/DateValidator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\validators\DateValidator.
         )
 
-    [787] => Array
+    [788] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/DefaultValueValidator.php
             [message] => Property $validationAttributes conflicts with a defined getter getValidationAttributes in yii\validators\DefaultValueValidator.
         )
 
-    [788] => Array
+    [789] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/DefaultValueValidator.php
             [message] => Property $attributeNames conflicts with a defined getter getAttributeNames in yii\validators\DefaultValueValidator.
         )
 
-    [789] => Array
+    [790] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/DefaultValueValidator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\validators\DefaultValueValidator.
         )
 
-    [790] => Array
+    [791] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/EachValidator.php
             [message] => Property $validationAttributes conflicts with a defined getter getValidationAttributes in yii\validators\EachValidator.
         )
 
-    [791] => Array
+    [792] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/EachValidator.php
             [message] => Property $attributeNames conflicts with a defined getter getAttributeNames in yii\validators\EachValidator.
         )
 
-    [792] => Array
+    [793] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/EachValidator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\validators\EachValidator.
         )
 
-    [793] => Array
+    [794] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/EmailValidator.php
             [message] => Property $validationAttributes conflicts with a defined getter getValidationAttributes in yii\validators\EmailValidator.
         )
 
-    [794] => Array
+    [795] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/EmailValidator.php
             [message] => Property $attributeNames conflicts with a defined getter getAttributeNames in yii\validators\EmailValidator.
         )
 
-    [795] => Array
+    [796] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/EmailValidator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\validators\EmailValidator.
         )
 
-    [796] => Array
+    [797] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/ExistValidator.php
             [message] => Property $validationAttributes conflicts with a defined getter getValidationAttributes in yii\validators\ExistValidator.
         )
 
-    [797] => Array
+    [798] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/ExistValidator.php
             [message] => Property $attributeNames conflicts with a defined getter getAttributeNames in yii\validators\ExistValidator.
         )
 
-    [798] => Array
+    [799] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/ExistValidator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\validators\ExistValidator.
         )
 
-    [799] => Array
+    [800] => Array
         (
             [line] => 348
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/FileValidator.php
             [message] => Method param $trim does not exist in parent method, @inheritdoc not possible in isEmpty in yii\validators\FileValidator.
         )
 
-    [800] => Array
+    [801] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/FileValidator.php
             [message] => Property $sizeLimit conflicts with a defined getter getSizeLimit in yii\validators\FileValidator.
         )
 
-    [801] => Array
+    [802] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/FileValidator.php
             [message] => Property $validationAttributes conflicts with a defined getter getValidationAttributes in yii\validators\FileValidator.
         )
 
-    [802] => Array
+    [803] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/FileValidator.php
             [message] => Property $attributeNames conflicts with a defined getter getAttributeNames in yii\validators\FileValidator.
         )
 
-    [803] => Array
+    [804] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/FileValidator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\validators\FileValidator.
         )
 
-    [804] => Array
+    [805] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/FilterValidator.php
             [message] => Property $validationAttributes conflicts with a defined getter getValidationAttributes in yii\validators\FilterValidator.
         )
 
-    [805] => Array
+    [806] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/FilterValidator.php
             [message] => Property $attributeNames conflicts with a defined getter getAttributeNames in yii\validators\FilterValidator.
         )
 
-    [806] => Array
+    [807] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/FilterValidator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\validators\FilterValidator.
         )
 
-    [807] => Array
+    [808] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/ImageValidator.php
             [message] => Property $sizeLimit conflicts with a defined getter getSizeLimit in yii\validators\ImageValidator.
         )
 
-    [808] => Array
+    [809] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/ImageValidator.php
             [message] => Property $validationAttributes conflicts with a defined getter getValidationAttributes in yii\validators\ImageValidator.
         )
 
-    [809] => Array
+    [810] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/ImageValidator.php
             [message] => Property $attributeNames conflicts with a defined getter getAttributeNames in yii\validators\ImageValidator.
         )
 
-    [810] => Array
+    [811] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/ImageValidator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\validators\ImageValidator.
         )
 
-    [811] => Array
+    [812] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/InlineValidator.php
             [message] => Property $validationAttributes conflicts with a defined getter getValidationAttributes in yii\validators\InlineValidator.
         )
 
-    [812] => Array
+    [813] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/InlineValidator.php
             [message] => Property $attributeNames conflicts with a defined getter getAttributeNames in yii\validators\InlineValidator.
         )
 
-    [813] => Array
+    [814] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/InlineValidator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\validators\InlineValidator.
         )
 
-    [814] => Array
+    [815] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/IpValidator.php
             [message] => Property $ranges conflicts with a defined setter setRanges in yii\validators\IpValidator.
         )
 
-    [815] => Array
+    [816] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/IpValidator.php
             [message] => Property $ranges conflicts with a defined getter getRanges in yii\validators\IpValidator.
         )
 
-    [816] => Array
+    [817] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/IpValidator.php
             [message] => Property $validationAttributes conflicts with a defined getter getValidationAttributes in yii\validators\IpValidator.
         )
 
-    [817] => Array
+    [818] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/IpValidator.php
             [message] => Property $attributeNames conflicts with a defined getter getAttributeNames in yii\validators\IpValidator.
         )
 
-    [818] => Array
+    [819] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/IpValidator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\validators\IpValidator.
         )
 
-    [819] => Array
+    [820] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/NumberValidator.php
             [message] => Property $validationAttributes conflicts with a defined getter getValidationAttributes in yii\validators\NumberValidator.
         )
 
-    [820] => Array
+    [821] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/NumberValidator.php
             [message] => Property $attributeNames conflicts with a defined getter getAttributeNames in yii\validators\NumberValidator.
         )
 
-    [821] => Array
+    [822] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/NumberValidator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\validators\NumberValidator.
         )
 
-    [822] => Array
+    [823] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/RangeValidator.php
             [message] => Property $validationAttributes conflicts with a defined getter getValidationAttributes in yii\validators\RangeValidator.
         )
 
-    [823] => Array
+    [824] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/RangeValidator.php
             [message] => Property $attributeNames conflicts with a defined getter getAttributeNames in yii\validators\RangeValidator.
         )
 
-    [824] => Array
+    [825] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/RangeValidator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\validators\RangeValidator.
         )
 
-    [825] => Array
+    [826] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/RegularExpressionValidator.php
             [message] => Property $validationAttributes conflicts with a defined getter getValidationAttributes in yii\validators\RegularExpressionValidator.
         )
 
-    [826] => Array
+    [827] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/RegularExpressionValidator.php
             [message] => Property $attributeNames conflicts with a defined getter getAttributeNames in yii\validators\RegularExpressionValidator.
         )
 
-    [827] => Array
+    [828] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/RegularExpressionValidator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\validators\RegularExpressionValidator.
         )
 
-    [828] => Array
+    [829] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/RequiredValidator.php
             [message] => Property $validationAttributes conflicts with a defined getter getValidationAttributes in yii\validators\RequiredValidator.
         )
 
-    [829] => Array
+    [830] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/RequiredValidator.php
             [message] => Property $attributeNames conflicts with a defined getter getAttributeNames in yii\validators\RequiredValidator.
         )
 
-    [830] => Array
+    [831] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/RequiredValidator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\validators\RequiredValidator.
         )
 
-    [831] => Array
+    [832] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/SafeValidator.php
             [message] => Property $validationAttributes conflicts with a defined getter getValidationAttributes in yii\validators\SafeValidator.
         )
 
-    [832] => Array
+    [833] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/SafeValidator.php
             [message] => Property $attributeNames conflicts with a defined getter getAttributeNames in yii\validators\SafeValidator.
         )
 
-    [833] => Array
+    [834] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/SafeValidator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\validators\SafeValidator.
         )
 
-    [834] => Array
+    [835] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/StringValidator.php
             [message] => Property $validationAttributes conflicts with a defined getter getValidationAttributes in yii\validators\StringValidator.
         )
 
-    [835] => Array
+    [836] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/StringValidator.php
             [message] => Property $attributeNames conflicts with a defined getter getAttributeNames in yii\validators\StringValidator.
         )
 
-    [836] => Array
+    [837] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/StringValidator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\validators\StringValidator.
         )
 
-    [837] => Array
+    [838] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/TrimValidator.php
             [message] => Property $validationAttributes conflicts with a defined getter getValidationAttributes in yii\validators\TrimValidator.
         )
 
-    [838] => Array
+    [839] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/TrimValidator.php
             [message] => Property $attributeNames conflicts with a defined getter getAttributeNames in yii\validators\TrimValidator.
         )
 
-    [839] => Array
+    [840] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/TrimValidator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\validators\TrimValidator.
         )
 
-    [840] => Array
+    [841] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/UniqueValidator.php
             [message] => Property $validationAttributes conflicts with a defined getter getValidationAttributes in yii\validators\UniqueValidator.
         )
 
-    [841] => Array
+    [842] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/UniqueValidator.php
             [message] => Property $attributeNames conflicts with a defined getter getAttributeNames in yii\validators\UniqueValidator.
         )
 
-    [842] => Array
+    [843] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/UniqueValidator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\validators\UniqueValidator.
         )
 
-    [843] => Array
+    [844] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/UrlValidator.php
             [message] => Property $validationAttributes conflicts with a defined getter getValidationAttributes in yii\validators\UrlValidator.
         )
 
-    [844] => Array
+    [845] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/UrlValidator.php
             [message] => Property $attributeNames conflicts with a defined getter getAttributeNames in yii\validators\UrlValidator.
         )
 
-    [845] => Array
+    [846] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/UrlValidator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\validators\UrlValidator.
         )
 
-    [846] => Array
+    [847] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/Validator.php
             [message] => Property $validationAttributes conflicts with a defined getter getValidationAttributes in yii\validators\Validator.
         )
 
-    [847] => Array
+    [848] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/Validator.php
             [message] => Property $attributeNames conflicts with a defined getter getAttributeNames in yii\validators\Validator.
         )
 
-    [848] => Array
+    [849] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/validators/Validator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\validators\Validator.
         )
 
-    [849] => Array
+    [850] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $homeUrl conflicts with a defined getter getHomeUrl in yii\web\Application.
         )
 
-    [850] => Array
+    [851] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $homeUrl conflicts with a defined setter setHomeUrl in yii\web\Application.
         )
 
-    [851] => Array
+    [852] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $errorHandler conflicts with a defined getter getErrorHandler in yii\web\Application.
         )
 
-    [852] => Array
+    [853] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $request conflicts with a defined getter getRequest in yii\web\Application.
         )
 
-    [853] => Array
+    [854] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $response conflicts with a defined getter getResponse in yii\web\Application.
         )
 
-    [854] => Array
+    [855] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $session conflicts with a defined getter getSession in yii\web\Application.
         )
 
-    [855] => Array
+    [856] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $user conflicts with a defined getter getUser in yii\web\Application.
         )
 
-    [856] => Array
+    [857] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $uniqueId conflicts with a defined getter getUniqueId in yii\web\Application.
         )
 
-    [857] => Array
+    [858] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $basePath conflicts with a defined setter setBasePath in yii\web\Application.
         )
 
-    [858] => Array
+    [859] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $runtimePath conflicts with a defined getter getRuntimePath in yii\web\Application.
         )
 
-    [859] => Array
+    [860] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $runtimePath conflicts with a defined setter setRuntimePath in yii\web\Application.
         )
 
-    [860] => Array
+    [861] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $vendorPath conflicts with a defined getter getVendorPath in yii\web\Application.
         )
 
-    [861] => Array
+    [862] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $vendorPath conflicts with a defined setter setVendorPath in yii\web\Application.
         )
 
-    [862] => Array
+    [863] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $timeZone conflicts with a defined getter getTimeZone in yii\web\Application.
         )
 
-    [863] => Array
+    [864] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $timeZone conflicts with a defined setter setTimeZone in yii\web\Application.
         )
 
-    [864] => Array
+    [865] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $db conflicts with a defined getter getDb in yii\web\Application.
         )
 
-    [865] => Array
+    [866] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $log conflicts with a defined getter getLog in yii\web\Application.
         )
 
-    [866] => Array
+    [867] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $cache conflicts with a defined getter getCache in yii\web\Application.
         )
 
-    [867] => Array
+    [868] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $formatter conflicts with a defined getter getFormatter in yii\web\Application.
         )
 
-    [868] => Array
+    [869] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $view conflicts with a defined getter getView in yii\web\Application.
         )
 
-    [869] => Array
+    [870] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $urlManager conflicts with a defined getter getUrlManager in yii\web\Application.
         )
 
-    [870] => Array
+    [871] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $i18n conflicts with a defined getter getI18n in yii\web\Application.
         )
 
-    [871] => Array
+    [872] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $mailer conflicts with a defined getter getMailer in yii\web\Application.
         )
 
-    [872] => Array
+    [873] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $authManager conflicts with a defined getter getAuthManager in yii\web\Application.
         )
 
-    [873] => Array
+    [874] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $assetManager conflicts with a defined getter getAssetManager in yii\web\Application.
         )
 
-    [874] => Array
+    [875] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $security conflicts with a defined getter getSecurity in yii\web\Application.
         )
 
-    [875] => Array
+    [876] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $container conflicts with a defined setter setContainer in yii\web\Application.
         )
 
-    [876] => Array
+    [877] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $basePath conflicts with a defined getter getBasePath in yii\web\Application.
         )
 
-    [877] => Array
+    [878] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $controllerPath conflicts with a defined getter getControllerPath in yii\web\Application.
         )
 
-    [878] => Array
+    [879] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $controllerPath conflicts with a defined setter setControllerPath in yii\web\Application.
         )
 
-    [879] => Array
+    [880] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $viewPath conflicts with a defined getter getViewPath in yii\web\Application.
         )
 
-    [880] => Array
+    [881] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $viewPath conflicts with a defined setter setViewPath in yii\web\Application.
         )
 
-    [881] => Array
+    [882] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $layoutPath conflicts with a defined getter getLayoutPath in yii\web\Application.
         )
 
-    [882] => Array
+    [883] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $layoutPath conflicts with a defined setter setLayoutPath in yii\web\Application.
         )
 
-    [883] => Array
+    [884] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $version conflicts with a defined getter getVersion in yii\web\Application.
         )
 
-    [884] => Array
+    [885] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $version conflicts with a defined setter setVersion in yii\web\Application.
         )
 
-    [885] => Array
+    [886] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $aliases conflicts with a defined setter setAliases in yii\web\Application.
         )
 
-    [886] => Array
+    [887] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $modules conflicts with a defined getter getModules in yii\web\Application.
         )
 
-    [887] => Array
+    [888] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $modules conflicts with a defined setter setModules in yii\web\Application.
         )
 
-    [888] => Array
+    [889] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $components conflicts with a defined getter getComponents in yii\web\Application.
         )
 
-    [889] => Array
+    [890] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $components conflicts with a defined setter setComponents in yii\web\Application.
         )
 
-    [890] => Array
+    [891] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Application.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\web\Application.
         )
 
-    [891] => Array
+    [892] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/AssetConverter.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\web\AssetConverter.
         )
 
-    [892] => Array
+    [893] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/AssetManager.php
             [message] => Property $converter conflicts with a defined getter getConverter in yii\web\AssetManager.
         )
 
-    [893] => Array
+    [894] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/AssetManager.php
             [message] => Property $converter conflicts with a defined setter setConverter in yii\web\AssetManager.
         )
 
-    [894] => Array
+    [895] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/AssetManager.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\web\AssetManager.
         )
 
-    [895] => Array
+    [896] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $useCustomStorage conflicts with a defined getter getUseCustomStorage in yii\web\CacheSession.
         )
 
-    [896] => Array
+    [897] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $isActive conflicts with a defined getter getIsActive in yii\web\CacheSession.
         )
 
-    [897] => Array
+    [898] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $hasSessionId conflicts with a defined getter getHasSessionId in yii\web\CacheSession.
         )
 
-    [898] => Array
+    [899] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $hasSessionId conflicts with a defined setter setHasSessionId in yii\web\CacheSession.
         )
 
-    [899] => Array
+    [900] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $id conflicts with a defined getter getId in yii\web\CacheSession.
         )
 
-    [900] => Array
+    [901] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $id conflicts with a defined setter setId in yii\web\CacheSession.
         )
 
-    [901] => Array
+    [902] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $name conflicts with a defined getter getName in yii\web\CacheSession.
         )
 
-    [902] => Array
+    [903] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $name conflicts with a defined setter setName in yii\web\CacheSession.
         )
 
-    [903] => Array
+    [904] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $savePath conflicts with a defined getter getSavePath in yii\web\CacheSession.
         )
 
-    [904] => Array
+    [905] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $savePath conflicts with a defined setter setSavePath in yii\web\CacheSession.
         )
 
-    [905] => Array
+    [906] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $cookieParams conflicts with a defined getter getCookieParams in yii\web\CacheSession.
         )
 
-    [906] => Array
+    [907] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $cookieParams conflicts with a defined setter setCookieParams in yii\web\CacheSession.
         )
 
-    [907] => Array
+    [908] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $useCookies conflicts with a defined getter getUseCookies in yii\web\CacheSession.
         )
 
-    [908] => Array
+    [909] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $useCookies conflicts with a defined setter setUseCookies in yii\web\CacheSession.
         )
 
-    [909] => Array
+    [910] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $gCProbability conflicts with a defined getter getGCProbability in yii\web\CacheSession.
         )
 
-    [910] => Array
+    [911] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $gCProbability conflicts with a defined setter setGCProbability in yii\web\CacheSession.
         )
 
-    [911] => Array
+    [912] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $useTransparentSessionID conflicts with a defined getter getUseTransparentSessionID in yii\web\CacheSession.
         )
 
-    [912] => Array
+    [913] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $useTransparentSessionID conflicts with a defined setter setUseTransparentSessionID in yii\web\CacheSession.
         )
 
-    [913] => Array
+    [914] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $timeout conflicts with a defined getter getTimeout in yii\web\CacheSession.
         )
 
-    [914] => Array
+    [915] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $timeout conflicts with a defined setter setTimeout in yii\web\CacheSession.
         )
 
-    [915] => Array
+    [916] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $useStrictMode conflicts with a defined setter setUseStrictMode in yii\web\CacheSession.
         )
 
-    [916] => Array
+    [917] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $useStrictMode conflicts with a defined getter getUseStrictMode in yii\web\CacheSession.
         )
 
-    [917] => Array
+    [918] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $iterator conflicts with a defined getter getIterator in yii\web\CacheSession.
         )
 
-    [918] => Array
+    [919] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $count conflicts with a defined getter getCount in yii\web\CacheSession.
         )
 
-    [919] => Array
+    [920] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $allFlashes conflicts with a defined getter getAllFlashes in yii\web\CacheSession.
         )
 
-    [920] => Array
+    [921] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $flash conflicts with a defined setter setFlash in yii\web\CacheSession.
         )
 
-    [921] => Array
+    [922] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $cacheLimiter conflicts with a defined setter setCacheLimiter in yii\web\CacheSession.
         )
 
-    [922] => Array
+    [923] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $cacheLimiter conflicts with a defined getter getCacheLimiter in yii\web\CacheSession.
         )
 
-    [923] => Array
+    [924] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CacheSession.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\web\CacheSession.
         )
 
-    [924] => Array
+    [925] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CompositeUrlRule.php
             [message] => Property $createUrlStatus conflicts with a defined getter getCreateUrlStatus in yii\web\CompositeUrlRule.
         )
 
-    [925] => Array
+    [926] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Controller.php
             [message] => Property $modules conflicts with a defined getter getModules in yii\web\Controller.
         )
 
-    [926] => Array
+    [927] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Controller.php
             [message] => Property $uniqueId conflicts with a defined getter getUniqueId in yii\web\Controller.
         )
 
-    [927] => Array
+    [928] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Controller.php
             [message] => Property $route conflicts with a defined getter getRoute in yii\web\Controller.
         )
 
-    [928] => Array
+    [929] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Controller.php
             [message] => Property $view conflicts with a defined getter getView in yii\web\Controller.
         )
 
-    [929] => Array
+    [930] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Controller.php
             [message] => Property $view conflicts with a defined setter setView in yii\web\Controller.
         )
 
-    [930] => Array
+    [931] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Controller.php
             [message] => Property $viewPath conflicts with a defined getter getViewPath in yii\web\Controller.
         )
 
-    [931] => Array
+    [932] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Controller.php
             [message] => Property $viewPath conflicts with a defined setter setViewPath in yii\web\Controller.
         )
 
-    [932] => Array
+    [933] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Controller.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\web\Controller.
         )
 
-    [933] => Array
+    [934] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CookieCollection.php
             [message] => Property $iterator conflicts with a defined getter getIterator in yii\web\CookieCollection.
         )
 
-    [934] => Array
+    [935] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/CookieCollection.php
             [message] => Property $count conflicts with a defined getter getCount in yii\web\CookieCollection.
         )
 
-    [935] => Array
+    [936] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $useCustomStorage conflicts with a defined getter getUseCustomStorage in yii\web\DbSession.
         )
 
-    [936] => Array
+    [937] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $isActive conflicts with a defined getter getIsActive in yii\web\DbSession.
         )
 
-    [937] => Array
+    [938] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $hasSessionId conflicts with a defined getter getHasSessionId in yii\web\DbSession.
         )
 
-    [938] => Array
+    [939] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $hasSessionId conflicts with a defined setter setHasSessionId in yii\web\DbSession.
         )
 
-    [939] => Array
+    [940] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $id conflicts with a defined getter getId in yii\web\DbSession.
         )
 
-    [940] => Array
+    [941] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $id conflicts with a defined setter setId in yii\web\DbSession.
         )
 
-    [941] => Array
+    [942] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $name conflicts with a defined getter getName in yii\web\DbSession.
         )
 
-    [942] => Array
+    [943] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $name conflicts with a defined setter setName in yii\web\DbSession.
         )
 
-    [943] => Array
+    [944] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $savePath conflicts with a defined getter getSavePath in yii\web\DbSession.
         )
 
-    [944] => Array
+    [945] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $savePath conflicts with a defined setter setSavePath in yii\web\DbSession.
         )
 
-    [945] => Array
+    [946] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $cookieParams conflicts with a defined getter getCookieParams in yii\web\DbSession.
         )
 
-    [946] => Array
+    [947] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $cookieParams conflicts with a defined setter setCookieParams in yii\web\DbSession.
         )
 
-    [947] => Array
+    [948] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $useCookies conflicts with a defined getter getUseCookies in yii\web\DbSession.
         )
 
-    [948] => Array
+    [949] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $useCookies conflicts with a defined setter setUseCookies in yii\web\DbSession.
         )
 
-    [949] => Array
+    [950] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $gCProbability conflicts with a defined getter getGCProbability in yii\web\DbSession.
         )
 
-    [950] => Array
+    [951] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $gCProbability conflicts with a defined setter setGCProbability in yii\web\DbSession.
         )
 
-    [951] => Array
+    [952] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $useTransparentSessionID conflicts with a defined getter getUseTransparentSessionID in yii\web\DbSession.
         )
 
-    [952] => Array
+    [953] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $useTransparentSessionID conflicts with a defined setter setUseTransparentSessionID in yii\web\DbSession.
         )
 
-    [953] => Array
+    [954] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $timeout conflicts with a defined getter getTimeout in yii\web\DbSession.
         )
 
-    [954] => Array
+    [955] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $timeout conflicts with a defined setter setTimeout in yii\web\DbSession.
         )
 
-    [955] => Array
+    [956] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $useStrictMode conflicts with a defined setter setUseStrictMode in yii\web\DbSession.
         )
 
-    [956] => Array
+    [957] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $useStrictMode conflicts with a defined getter getUseStrictMode in yii\web\DbSession.
         )
 
-    [957] => Array
+    [958] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $iterator conflicts with a defined getter getIterator in yii\web\DbSession.
         )
 
-    [958] => Array
+    [959] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $count conflicts with a defined getter getCount in yii\web\DbSession.
         )
 
-    [959] => Array
+    [960] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $allFlashes conflicts with a defined getter getAllFlashes in yii\web\DbSession.
         )
 
-    [960] => Array
+    [961] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $flash conflicts with a defined setter setFlash in yii\web\DbSession.
         )
 
-    [961] => Array
+    [962] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $cacheLimiter conflicts with a defined setter setCacheLimiter in yii\web\DbSession.
         )
 
-    [962] => Array
+    [963] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $cacheLimiter conflicts with a defined getter getCacheLimiter in yii\web\DbSession.
         )
 
-    [963] => Array
+    [964] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/DbSession.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\web\DbSession.
         )
 
-    [964] => Array
+    [965] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/ErrorAction.php
             [message] => Property $uniqueId conflicts with a defined getter getUniqueId in yii\web\ErrorAction.
         )
 
-    [965] => Array
+    [966] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/ErrorAction.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\web\ErrorAction.
         )
 
-    [966] => Array
+    [967] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/ErrorHandler.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\web\ErrorHandler.
         )
 
-    [967] => Array
+    [968] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/GroupUrlRule.php
             [message] => Property $createUrlStatus conflicts with a defined getter getCreateUrlStatus in yii\web\GroupUrlRule.
         )
 
-    [968] => Array
+    [969] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/HeaderCollection.php
             [message] => Property $iterator conflicts with a defined getter getIterator in yii\web\HeaderCollection.
         )
 
-    [969] => Array
+    [970] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/HeaderCollection.php
             [message] => Property $count conflicts with a defined getter getCount in yii\web\HeaderCollection.
         )
 
-    [970] => Array
+    [971] => Array
         (
             [line] => 24
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/HeadersAlreadySentException.php
             [message] => Method __construct has no parent to inherit from in yii\web\HeadersAlreadySentException.
         )
 
-    [971] => Array
+    [972] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/HtmlResponseFormatter.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\web\HtmlResponseFormatter.
         )
 
-    [972] => Array
+    [973] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/JsonResponseFormatter.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\web\JsonResponseFormatter.
         )
 
-    [973] => Array
+    [974] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $useCustomStorage conflicts with a defined getter getUseCustomStorage in yii\web\MultiFieldSession.
         )
 
-    [974] => Array
+    [975] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $isActive conflicts with a defined getter getIsActive in yii\web\MultiFieldSession.
         )
 
-    [975] => Array
+    [976] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $hasSessionId conflicts with a defined getter getHasSessionId in yii\web\MultiFieldSession.
         )
 
-    [976] => Array
+    [977] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $hasSessionId conflicts with a defined setter setHasSessionId in yii\web\MultiFieldSession.
         )
 
-    [977] => Array
+    [978] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $id conflicts with a defined getter getId in yii\web\MultiFieldSession.
         )
 
-    [978] => Array
+    [979] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $id conflicts with a defined setter setId in yii\web\MultiFieldSession.
         )
 
-    [979] => Array
+    [980] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $name conflicts with a defined getter getName in yii\web\MultiFieldSession.
         )
 
-    [980] => Array
+    [981] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $name conflicts with a defined setter setName in yii\web\MultiFieldSession.
         )
 
-    [981] => Array
+    [982] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $savePath conflicts with a defined getter getSavePath in yii\web\MultiFieldSession.
         )
 
-    [982] => Array
+    [983] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $savePath conflicts with a defined setter setSavePath in yii\web\MultiFieldSession.
         )
 
-    [983] => Array
+    [984] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $cookieParams conflicts with a defined getter getCookieParams in yii\web\MultiFieldSession.
         )
 
-    [984] => Array
+    [985] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $cookieParams conflicts with a defined setter setCookieParams in yii\web\MultiFieldSession.
         )
 
-    [985] => Array
+    [986] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $useCookies conflicts with a defined getter getUseCookies in yii\web\MultiFieldSession.
         )
 
-    [986] => Array
+    [987] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $useCookies conflicts with a defined setter setUseCookies in yii\web\MultiFieldSession.
         )
 
-    [987] => Array
+    [988] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $gCProbability conflicts with a defined getter getGCProbability in yii\web\MultiFieldSession.
         )
 
-    [988] => Array
+    [989] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $gCProbability conflicts with a defined setter setGCProbability in yii\web\MultiFieldSession.
         )
 
-    [989] => Array
+    [990] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $useTransparentSessionID conflicts with a defined getter getUseTransparentSessionID in yii\web\MultiFieldSession.
         )
 
-    [990] => Array
+    [991] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $useTransparentSessionID conflicts with a defined setter setUseTransparentSessionID in yii\web\MultiFieldSession.
         )
 
-    [991] => Array
+    [992] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $timeout conflicts with a defined getter getTimeout in yii\web\MultiFieldSession.
         )
 
-    [992] => Array
+    [993] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $timeout conflicts with a defined setter setTimeout in yii\web\MultiFieldSession.
         )
 
-    [993] => Array
+    [994] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $useStrictMode conflicts with a defined setter setUseStrictMode in yii\web\MultiFieldSession.
         )
 
-    [994] => Array
+    [995] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $useStrictMode conflicts with a defined getter getUseStrictMode in yii\web\MultiFieldSession.
         )
 
-    [995] => Array
+    [996] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $iterator conflicts with a defined getter getIterator in yii\web\MultiFieldSession.
         )
 
-    [996] => Array
+    [997] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $count conflicts with a defined getter getCount in yii\web\MultiFieldSession.
         )
 
-    [997] => Array
+    [998] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $allFlashes conflicts with a defined getter getAllFlashes in yii\web\MultiFieldSession.
         )
 
-    [998] => Array
+    [999] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $flash conflicts with a defined setter setFlash in yii\web\MultiFieldSession.
         )
 
-    [999] => Array
+    [1000] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $cacheLimiter conflicts with a defined setter setCacheLimiter in yii\web\MultiFieldSession.
         )
 
-    [1000] => Array
+    [1001] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $cacheLimiter conflicts with a defined getter getCacheLimiter in yii\web\MultiFieldSession.
         )
 
-    [1001] => Array
+    [1002] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultiFieldSession.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\web\MultiFieldSession.
         )
 
-    [1002] => Array
+    [1003] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultipartFormDataParser.php
             [message] => Property $uploadFileMaxSize conflicts with a defined getter getUploadFileMaxSize in yii\web\MultipartFormDataParser.
         )
 
-    [1003] => Array
+    [1004] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultipartFormDataParser.php
             [message] => Property $uploadFileMaxSize conflicts with a defined setter setUploadFileMaxSize in yii\web\MultipartFormDataParser.
         )
 
-    [1004] => Array
+    [1005] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultipartFormDataParser.php
             [message] => Property $uploadFileMaxCount conflicts with a defined getter getUploadFileMaxCount in yii\web\MultipartFormDataParser.
         )
 
-    [1005] => Array
+    [1006] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/MultipartFormDataParser.php
             [message] => Property $uploadFileMaxCount conflicts with a defined setter setUploadFileMaxCount in yii\web\MultipartFormDataParser.
         )
 
-    [1006] => Array
+    [1007] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $headers conflicts with a defined getter getHeaders in yii\web\Request.
         )
 
-    [1007] => Array
+    [1008] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $method conflicts with a defined getter getMethod in yii\web\Request.
         )
 
-    [1008] => Array
+    [1009] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $isGet conflicts with a defined getter getIsGet in yii\web\Request.
         )
 
-    [1009] => Array
+    [1010] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $isOptions conflicts with a defined getter getIsOptions in yii\web\Request.
         )
 
-    [1010] => Array
+    [1011] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $isHead conflicts with a defined getter getIsHead in yii\web\Request.
         )
 
-    [1011] => Array
+    [1012] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $isPost conflicts with a defined getter getIsPost in yii\web\Request.
         )
 
-    [1012] => Array
+    [1013] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $isDelete conflicts with a defined getter getIsDelete in yii\web\Request.
         )
 
-    [1013] => Array
+    [1014] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $isPut conflicts with a defined getter getIsPut in yii\web\Request.
         )
 
-    [1014] => Array
+    [1015] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $isPatch conflicts with a defined getter getIsPatch in yii\web\Request.
         )
 
-    [1015] => Array
+    [1016] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $isAjax conflicts with a defined getter getIsAjax in yii\web\Request.
         )
 
-    [1016] => Array
+    [1017] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $isPjax conflicts with a defined getter getIsPjax in yii\web\Request.
         )
 
-    [1017] => Array
+    [1018] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $isFlash conflicts with a defined getter getIsFlash in yii\web\Request.
         )
 
-    [1018] => Array
+    [1019] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $rawBody conflicts with a defined getter getRawBody in yii\web\Request.
         )
 
-    [1019] => Array
+    [1020] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $rawBody conflicts with a defined setter setRawBody in yii\web\Request.
         )
 
-    [1020] => Array
+    [1021] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $bodyParams conflicts with a defined getter getBodyParams in yii\web\Request.
         )
 
-    [1021] => Array
+    [1022] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $bodyParams conflicts with a defined setter setBodyParams in yii\web\Request.
         )
 
-    [1022] => Array
+    [1023] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $queryParams conflicts with a defined getter getQueryParams in yii\web\Request.
         )
 
-    [1023] => Array
+    [1024] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $queryParams conflicts with a defined setter setQueryParams in yii\web\Request.
         )
 
-    [1024] => Array
+    [1025] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $hostInfo conflicts with a defined getter getHostInfo in yii\web\Request.
         )
 
-    [1025] => Array
+    [1026] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $hostInfo conflicts with a defined setter setHostInfo in yii\web\Request.
         )
 
-    [1026] => Array
+    [1027] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $hostName conflicts with a defined getter getHostName in yii\web\Request.
         )
 
-    [1027] => Array
+    [1028] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $baseUrl conflicts with a defined getter getBaseUrl in yii\web\Request.
         )
 
-    [1028] => Array
+    [1029] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $baseUrl conflicts with a defined setter setBaseUrl in yii\web\Request.
         )
 
-    [1029] => Array
+    [1030] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $scriptUrl conflicts with a defined getter getScriptUrl in yii\web\Request.
         )
 
-    [1030] => Array
+    [1031] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $scriptUrl conflicts with a defined setter setScriptUrl in yii\web\Request.
         )
 
-    [1031] => Array
+    [1032] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $scriptFile conflicts with a defined getter getScriptFile in yii\web\Request.
         )
 
-    [1032] => Array
+    [1033] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $scriptFile conflicts with a defined setter setScriptFile in yii\web\Request.
         )
 
-    [1033] => Array
+    [1034] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $pathInfo conflicts with a defined getter getPathInfo in yii\web\Request.
         )
 
-    [1034] => Array
+    [1035] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $pathInfo conflicts with a defined setter setPathInfo in yii\web\Request.
         )
 
-    [1035] => Array
+    [1036] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $absoluteUrl conflicts with a defined getter getAbsoluteUrl in yii\web\Request.
         )
 
-    [1036] => Array
+    [1037] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $url conflicts with a defined getter getUrl in yii\web\Request.
         )
 
-    [1037] => Array
+    [1038] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $url conflicts with a defined setter setUrl in yii\web\Request.
         )
 
-    [1038] => Array
+    [1039] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $queryString conflicts with a defined getter getQueryString in yii\web\Request.
         )
 
-    [1039] => Array
+    [1040] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $isSecureConnection conflicts with a defined getter getIsSecureConnection in yii\web\Request.
         )
 
-    [1040] => Array
+    [1041] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $serverName conflicts with a defined getter getServerName in yii\web\Request.
         )
 
-    [1041] => Array
+    [1042] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $serverPort conflicts with a defined getter getServerPort in yii\web\Request.
         )
 
-    [1042] => Array
+    [1043] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $referrer conflicts with a defined getter getReferrer in yii\web\Request.
         )
 
-    [1043] => Array
+    [1044] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $origin conflicts with a defined getter getOrigin in yii\web\Request.
         )
 
-    [1044] => Array
+    [1045] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $userAgent conflicts with a defined getter getUserAgent in yii\web\Request.
         )
 
-    [1045] => Array
+    [1046] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $userIP conflicts with a defined getter getUserIP in yii\web\Request.
         )
 
-    [1046] => Array
+    [1047] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $userHost conflicts with a defined getter getUserHost in yii\web\Request.
         )
 
-    [1047] => Array
+    [1048] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $remoteIP conflicts with a defined getter getRemoteIP in yii\web\Request.
         )
 
-    [1048] => Array
+    [1049] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $remoteHost conflicts with a defined getter getRemoteHost in yii\web\Request.
         )
 
-    [1049] => Array
+    [1050] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $authUser conflicts with a defined getter getAuthUser in yii\web\Request.
         )
 
-    [1050] => Array
+    [1051] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $authPassword conflicts with a defined getter getAuthPassword in yii\web\Request.
         )
 
-    [1051] => Array
+    [1052] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $authCredentials conflicts with a defined getter getAuthCredentials in yii\web\Request.
         )
 
-    [1052] => Array
+    [1053] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $port conflicts with a defined getter getPort in yii\web\Request.
         )
 
-    [1053] => Array
+    [1054] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $port conflicts with a defined setter setPort in yii\web\Request.
         )
 
-    [1054] => Array
+    [1055] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $securePort conflicts with a defined getter getSecurePort in yii\web\Request.
         )
 
-    [1055] => Array
+    [1056] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $securePort conflicts with a defined setter setSecurePort in yii\web\Request.
         )
 
-    [1056] => Array
+    [1057] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $acceptableContentTypes conflicts with a defined getter getAcceptableContentTypes in yii\web\Request.
         )
 
-    [1057] => Array
+    [1058] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $acceptableContentTypes conflicts with a defined setter setAcceptableContentTypes in yii\web\Request.
         )
 
-    [1058] => Array
+    [1059] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $contentType conflicts with a defined getter getContentType in yii\web\Request.
         )
 
-    [1059] => Array
+    [1060] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $acceptableLanguages conflicts with a defined getter getAcceptableLanguages in yii\web\Request.
         )
 
-    [1060] => Array
+    [1061] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $acceptableLanguages conflicts with a defined setter setAcceptableLanguages in yii\web\Request.
         )
 
-    [1061] => Array
+    [1062] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $eTags conflicts with a defined getter getETags in yii\web\Request.
         )
 
-    [1062] => Array
+    [1063] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $cookies conflicts with a defined getter getCookies in yii\web\Request.
         )
 
-    [1063] => Array
+    [1064] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $csrfToken conflicts with a defined getter getCsrfToken in yii\web\Request.
         )
 
-    [1064] => Array
+    [1065] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $csrfTokenFromHeader conflicts with a defined getter getCsrfTokenFromHeader in yii\web\Request.
         )
 
-    [1065] => Array
+    [1066] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $isConsoleRequest conflicts with a defined getter getIsConsoleRequest in yii\web\Request.
         )
 
-    [1066] => Array
+    [1067] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $isConsoleRequest conflicts with a defined setter setIsConsoleRequest in yii\web\Request.
         )
 
-    [1067] => Array
+    [1068] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Request.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\web\Request.
         )
 
-    [1068] => Array
+    [1069] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
             [message] => Property $statusCode conflicts with a defined getter getStatusCode in yii\web\Response.
         )
 
-    [1069] => Array
+    [1070] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
             [message] => Property $statusCode conflicts with a defined setter setStatusCode in yii\web\Response.
         )
 
-    [1070] => Array
+    [1071] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
             [message] => Property $statusCodeByException conflicts with a defined setter setStatusCodeByException in yii\web\Response.
         )
 
-    [1071] => Array
+    [1072] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
             [message] => Property $headers conflicts with a defined getter getHeaders in yii\web\Response.
         )
 
-    [1072] => Array
+    [1073] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
             [message] => Property $downloadHeaders conflicts with a defined setter setDownloadHeaders in yii\web\Response.
         )
 
-    [1073] => Array
+    [1074] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
             [message] => Property $cookies conflicts with a defined getter getCookies in yii\web\Response.
         )
 
-    [1074] => Array
+    [1075] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
             [message] => Property $isInvalid conflicts with a defined getter getIsInvalid in yii\web\Response.
         )
 
-    [1075] => Array
+    [1076] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
             [message] => Property $isInformational conflicts with a defined getter getIsInformational in yii\web\Response.
         )
 
-    [1076] => Array
+    [1077] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
             [message] => Property $isSuccessful conflicts with a defined getter getIsSuccessful in yii\web\Response.
         )
 
-    [1077] => Array
+    [1078] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
             [message] => Property $isRedirection conflicts with a defined getter getIsRedirection in yii\web\Response.
         )
 
-    [1078] => Array
+    [1079] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
             [message] => Property $isClientError conflicts with a defined getter getIsClientError in yii\web\Response.
         )
 
-    [1079] => Array
+    [1080] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
             [message] => Property $isServerError conflicts with a defined getter getIsServerError in yii\web\Response.
         )
 
-    [1080] => Array
+    [1081] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
             [message] => Property $isOk conflicts with a defined getter getIsOk in yii\web\Response.
         )
 
-    [1081] => Array
+    [1082] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
             [message] => Property $isForbidden conflicts with a defined getter getIsForbidden in yii\web\Response.
         )
 
-    [1082] => Array
+    [1083] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
             [message] => Property $isNotFound conflicts with a defined getter getIsNotFound in yii\web\Response.
         )
 
-    [1083] => Array
+    [1084] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
             [message] => Property $isEmpty conflicts with a defined getter getIsEmpty in yii\web\Response.
         )
 
-    [1084] => Array
+    [1085] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Response.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\web\Response.
         )
 
-    [1085] => Array
+    [1086] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $useCustomStorage conflicts with a defined getter getUseCustomStorage in yii\web\Session.
         )
 
-    [1086] => Array
+    [1087] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $isActive conflicts with a defined getter getIsActive in yii\web\Session.
         )
 
-    [1087] => Array
+    [1088] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $hasSessionId conflicts with a defined getter getHasSessionId in yii\web\Session.
         )
 
-    [1088] => Array
+    [1089] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $hasSessionId conflicts with a defined setter setHasSessionId in yii\web\Session.
         )
 
-    [1089] => Array
+    [1090] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $id conflicts with a defined getter getId in yii\web\Session.
         )
 
-    [1090] => Array
+    [1091] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $id conflicts with a defined setter setId in yii\web\Session.
         )
 
-    [1091] => Array
+    [1092] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $name conflicts with a defined getter getName in yii\web\Session.
         )
 
-    [1092] => Array
+    [1093] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $name conflicts with a defined setter setName in yii\web\Session.
         )
 
-    [1093] => Array
+    [1094] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $savePath conflicts with a defined getter getSavePath in yii\web\Session.
         )
 
-    [1094] => Array
+    [1095] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $savePath conflicts with a defined setter setSavePath in yii\web\Session.
         )
 
-    [1095] => Array
+    [1096] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $cookieParams conflicts with a defined getter getCookieParams in yii\web\Session.
         )
 
-    [1096] => Array
+    [1097] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $cookieParams conflicts with a defined setter setCookieParams in yii\web\Session.
         )
 
-    [1097] => Array
+    [1098] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $useCookies conflicts with a defined getter getUseCookies in yii\web\Session.
         )
 
-    [1098] => Array
+    [1099] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $useCookies conflicts with a defined setter setUseCookies in yii\web\Session.
         )
 
-    [1099] => Array
+    [1100] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $gCProbability conflicts with a defined getter getGCProbability in yii\web\Session.
         )
 
-    [1100] => Array
+    [1101] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $gCProbability conflicts with a defined setter setGCProbability in yii\web\Session.
         )
 
-    [1101] => Array
+    [1102] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $useTransparentSessionID conflicts with a defined getter getUseTransparentSessionID in yii\web\Session.
         )
 
-    [1102] => Array
+    [1103] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $useTransparentSessionID conflicts with a defined setter setUseTransparentSessionID in yii\web\Session.
         )
 
-    [1103] => Array
+    [1104] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $timeout conflicts with a defined getter getTimeout in yii\web\Session.
         )
 
-    [1104] => Array
+    [1105] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $timeout conflicts with a defined setter setTimeout in yii\web\Session.
         )
 
-    [1105] => Array
+    [1106] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $useStrictMode conflicts with a defined setter setUseStrictMode in yii\web\Session.
         )
 
-    [1106] => Array
+    [1107] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $useStrictMode conflicts with a defined getter getUseStrictMode in yii\web\Session.
         )
 
-    [1107] => Array
+    [1108] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $iterator conflicts with a defined getter getIterator in yii\web\Session.
         )
 
-    [1108] => Array
+    [1109] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $count conflicts with a defined getter getCount in yii\web\Session.
         )
 
-    [1109] => Array
+    [1110] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $allFlashes conflicts with a defined getter getAllFlashes in yii\web\Session.
         )
 
-    [1110] => Array
+    [1111] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $flash conflicts with a defined setter setFlash in yii\web\Session.
         )
 
-    [1111] => Array
+    [1112] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $cacheLimiter conflicts with a defined setter setCacheLimiter in yii\web\Session.
         )
 
-    [1112] => Array
+    [1113] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $cacheLimiter conflicts with a defined getter getCacheLimiter in yii\web\Session.
         )
 
-    [1113] => Array
+    [1114] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/Session.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\web\Session.
         )
 
-    [1114] => Array
+    [1115] => Array
         (
             [line] => 34
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/SessionHandler.php
             [message] => Method close has no parent to inherit from in yii\web\SessionHandler.
         )
 
-    [1115] => Array
+    [1116] => Array
         (
             [line] => 42
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/SessionHandler.php
             [message] => Method destroy has no parent to inherit from in yii\web\SessionHandler.
         )
 
-    [1116] => Array
+    [1117] => Array
         (
             [line] => 50
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/SessionHandler.php
             [message] => Method gc has no parent to inherit from in yii\web\SessionHandler.
         )
 
-    [1117] => Array
+    [1118] => Array
         (
             [line] => 59
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/SessionHandler.php
             [message] => Method open has no parent to inherit from in yii\web\SessionHandler.
         )
 
-    [1118] => Array
+    [1119] => Array
         (
             [line] => 67
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/SessionHandler.php
             [message] => Method read has no parent to inherit from in yii\web\SessionHandler.
         )
 
-    [1119] => Array
+    [1120] => Array
         (
             [line] => 76
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/SessionHandler.php
             [message] => Method write has no parent to inherit from in yii\web\SessionHandler.
         )
 
-    [1120] => Array
+    [1121] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/UploadedFile.php
             [message] => Property $baseName conflicts with a defined getter getBaseName in yii\web\UploadedFile.
         )
 
-    [1121] => Array
+    [1122] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/UploadedFile.php
             [message] => Property $extension conflicts with a defined getter getExtension in yii\web\UploadedFile.
         )
 
-    [1122] => Array
+    [1123] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/UploadedFile.php
             [message] => Property $hasError conflicts with a defined getter getHasError in yii\web\UploadedFile.
         )
 
-    [1123] => Array
+    [1124] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/UrlManager.php
             [message] => Property $baseUrl conflicts with a defined getter getBaseUrl in yii\web\UrlManager.
         )
 
-    [1124] => Array
+    [1125] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/UrlManager.php
             [message] => Property $baseUrl conflicts with a defined setter setBaseUrl in yii\web\UrlManager.
         )
 
-    [1125] => Array
+    [1126] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/UrlManager.php
             [message] => Property $scriptUrl conflicts with a defined getter getScriptUrl in yii\web\UrlManager.
         )
 
-    [1126] => Array
+    [1127] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/UrlManager.php
             [message] => Property $scriptUrl conflicts with a defined setter setScriptUrl in yii\web\UrlManager.
         )
 
-    [1127] => Array
+    [1128] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/UrlManager.php
             [message] => Property $hostInfo conflicts with a defined getter getHostInfo in yii\web\UrlManager.
         )
 
-    [1128] => Array
+    [1129] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/UrlManager.php
             [message] => Property $hostInfo conflicts with a defined setter setHostInfo in yii\web\UrlManager.
         )
 
-    [1129] => Array
+    [1130] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/UrlManager.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\web\UrlManager.
         )
 
-    [1130] => Array
+    [1131] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/UrlRule.php
             [message] => Property $createUrlStatus conflicts with a defined getter getCreateUrlStatus in yii\web\UrlRule.
         )
 
-    [1131] => Array
+    [1132] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/User.php
             [message] => Property $identity conflicts with a defined getter getIdentity in yii\web\User.
         )
 
-    [1132] => Array
+    [1133] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/User.php
             [message] => Property $identity conflicts with a defined setter setIdentity in yii\web\User.
         )
 
-    [1133] => Array
+    [1134] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/User.php
             [message] => Property $isGuest conflicts with a defined getter getIsGuest in yii\web\User.
         )
 
-    [1134] => Array
+    [1135] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/User.php
             [message] => Property $id conflicts with a defined getter getId in yii\web\User.
         )
 
-    [1135] => Array
+    [1136] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/User.php
             [message] => Property $returnUrl conflicts with a defined getter getReturnUrl in yii\web\User.
         )
 
-    [1136] => Array
+    [1137] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/User.php
             [message] => Property $returnUrl conflicts with a defined setter setReturnUrl in yii\web\User.
         )
 
-    [1137] => Array
+    [1138] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/User.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\web\User.
         )
 
-    [1138] => Array
+    [1139] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/View.php
             [message] => Property $assetManager conflicts with a defined getter getAssetManager in yii\web\View.
         )
 
-    [1139] => Array
+    [1140] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/View.php
             [message] => Property $assetManager conflicts with a defined setter setAssetManager in yii\web\View.
         )
 
-    [1140] => Array
+    [1141] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/View.php
             [message] => Property $viewFile conflicts with a defined getter getViewFile in yii\web\View.
         )
 
-    [1141] => Array
+    [1142] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/View.php
             [message] => Property $dynamicContents conflicts with a defined getter getDynamicContents in yii\web\View.
         )
 
-    [1142] => Array
+    [1143] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/View.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\web\View.
         )
 
-    [1143] => Array
+    [1144] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/ViewAction.php
             [message] => Property $uniqueId conflicts with a defined getter getUniqueId in yii\web\ViewAction.
         )
 
-    [1144] => Array
+    [1145] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/ViewAction.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\web\ViewAction.
         )
 
-    [1145] => Array
+    [1146] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/web/XmlResponseFormatter.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\web\XmlResponseFormatter.
         )
 
-    [1146] => Array
+    [1147] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ActiveField.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\widgets\ActiveField.
         )
 
-    [1147] => Array
+    [1148] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ActiveForm.php
             [message] => Property $id conflicts with a defined getter getId in yii\widgets\ActiveForm.
         )
 
-    [1148] => Array
+    [1149] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ActiveForm.php
             [message] => Property $id conflicts with a defined setter setId in yii\widgets\ActiveForm.
         )
 
-    [1149] => Array
+    [1150] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ActiveForm.php
             [message] => Property $view conflicts with a defined getter getView in yii\widgets\ActiveForm.
         )
 
-    [1150] => Array
+    [1151] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ActiveForm.php
             [message] => Property $view conflicts with a defined setter setView in yii\widgets\ActiveForm.
         )
 
-    [1151] => Array
+    [1152] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ActiveForm.php
             [message] => Property $viewPath conflicts with a defined getter getViewPath in yii\widgets\ActiveForm.
         )
 
-    [1152] => Array
+    [1153] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ActiveForm.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\widgets\ActiveForm.
         )
 
-    [1153] => Array
+    [1154] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/BaseListView.php
             [message] => Property $id conflicts with a defined getter getId in yii\widgets\BaseListView.
         )
 
-    [1154] => Array
+    [1155] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/BaseListView.php
             [message] => Property $id conflicts with a defined setter setId in yii\widgets\BaseListView.
         )
 
-    [1155] => Array
+    [1156] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/BaseListView.php
             [message] => Property $view conflicts with a defined getter getView in yii\widgets\BaseListView.
         )
 
-    [1156] => Array
+    [1157] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/BaseListView.php
             [message] => Property $view conflicts with a defined setter setView in yii\widgets\BaseListView.
         )
 
-    [1157] => Array
+    [1158] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/BaseListView.php
             [message] => Property $viewPath conflicts with a defined getter getViewPath in yii\widgets\BaseListView.
         )
 
-    [1158] => Array
+    [1159] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/BaseListView.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\widgets\BaseListView.
         )
 
-    [1159] => Array
+    [1160] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Block.php
             [message] => Property $id conflicts with a defined getter getId in yii\widgets\Block.
         )
 
-    [1160] => Array
+    [1161] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Block.php
             [message] => Property $id conflicts with a defined setter setId in yii\widgets\Block.
         )
 
-    [1161] => Array
+    [1162] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Block.php
             [message] => Property $view conflicts with a defined getter getView in yii\widgets\Block.
         )
 
-    [1162] => Array
+    [1163] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Block.php
             [message] => Property $view conflicts with a defined setter setView in yii\widgets\Block.
         )
 
-    [1163] => Array
+    [1164] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Block.php
             [message] => Property $viewPath conflicts with a defined getter getViewPath in yii\widgets\Block.
         )
 
-    [1164] => Array
+    [1165] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Block.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\widgets\Block.
         )
 
-    [1165] => Array
+    [1166] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Breadcrumbs.php
             [message] => Property $id conflicts with a defined getter getId in yii\widgets\Breadcrumbs.
         )
 
-    [1166] => Array
+    [1167] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Breadcrumbs.php
             [message] => Property $id conflicts with a defined setter setId in yii\widgets\Breadcrumbs.
         )
 
-    [1167] => Array
+    [1168] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Breadcrumbs.php
             [message] => Property $view conflicts with a defined getter getView in yii\widgets\Breadcrumbs.
         )
 
-    [1168] => Array
+    [1169] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Breadcrumbs.php
             [message] => Property $view conflicts with a defined setter setView in yii\widgets\Breadcrumbs.
         )
 
-    [1169] => Array
+    [1170] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Breadcrumbs.php
             [message] => Property $viewPath conflicts with a defined getter getViewPath in yii\widgets\Breadcrumbs.
         )
 
-    [1170] => Array
+    [1171] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Breadcrumbs.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\widgets\Breadcrumbs.
         )
 
-    [1171] => Array
+    [1172] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ContentDecorator.php
             [message] => Property $id conflicts with a defined getter getId in yii\widgets\ContentDecorator.
         )
 
-    [1172] => Array
+    [1173] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ContentDecorator.php
             [message] => Property $id conflicts with a defined setter setId in yii\widgets\ContentDecorator.
         )
 
-    [1173] => Array
+    [1174] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ContentDecorator.php
             [message] => Property $view conflicts with a defined getter getView in yii\widgets\ContentDecorator.
         )
 
-    [1174] => Array
+    [1175] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ContentDecorator.php
             [message] => Property $view conflicts with a defined setter setView in yii\widgets\ContentDecorator.
         )
 
-    [1175] => Array
+    [1176] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ContentDecorator.php
             [message] => Property $viewPath conflicts with a defined getter getViewPath in yii\widgets\ContentDecorator.
         )
 
-    [1176] => Array
+    [1177] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ContentDecorator.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\widgets\ContentDecorator.
         )
 
-    [1177] => Array
+    [1178] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/DetailView.php
             [message] => Property $id conflicts with a defined getter getId in yii\widgets\DetailView.
         )
 
-    [1178] => Array
+    [1179] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/DetailView.php
             [message] => Property $id conflicts with a defined setter setId in yii\widgets\DetailView.
         )
 
-    [1179] => Array
+    [1180] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/DetailView.php
             [message] => Property $view conflicts with a defined getter getView in yii\widgets\DetailView.
         )
 
-    [1180] => Array
+    [1181] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/DetailView.php
             [message] => Property $view conflicts with a defined setter setView in yii\widgets\DetailView.
         )
 
-    [1181] => Array
+    [1182] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/DetailView.php
             [message] => Property $viewPath conflicts with a defined getter getViewPath in yii\widgets\DetailView.
         )
 
-    [1182] => Array
+    [1183] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/DetailView.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\widgets\DetailView.
         )
 
-    [1183] => Array
+    [1184] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/FragmentCache.php
             [message] => Property $cachedContent conflicts with a defined getter getCachedContent in yii\widgets\FragmentCache.
         )
 
-    [1184] => Array
+    [1185] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/FragmentCache.php
             [message] => Property $view conflicts with a defined getter getView in yii\widgets\FragmentCache.
         )
 
-    [1185] => Array
+    [1186] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/FragmentCache.php
             [message] => Property $id conflicts with a defined getter getId in yii\widgets\FragmentCache.
         )
 
-    [1186] => Array
+    [1187] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/FragmentCache.php
             [message] => Property $id conflicts with a defined setter setId in yii\widgets\FragmentCache.
         )
 
-    [1187] => Array
+    [1188] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/FragmentCache.php
             [message] => Property $view conflicts with a defined setter setView in yii\widgets\FragmentCache.
         )
 
-    [1188] => Array
+    [1189] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/FragmentCache.php
             [message] => Property $viewPath conflicts with a defined getter getViewPath in yii\widgets\FragmentCache.
         )
 
-    [1189] => Array
+    [1190] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/FragmentCache.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\widgets\FragmentCache.
         )
 
-    [1190] => Array
+    [1191] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/InputWidget.php
             [message] => Property $id conflicts with a defined getter getId in yii\widgets\InputWidget.
         )
 
-    [1191] => Array
+    [1192] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/InputWidget.php
             [message] => Property $id conflicts with a defined setter setId in yii\widgets\InputWidget.
         )
 
-    [1192] => Array
+    [1193] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/InputWidget.php
             [message] => Property $view conflicts with a defined getter getView in yii\widgets\InputWidget.
         )
 
-    [1193] => Array
+    [1194] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/InputWidget.php
             [message] => Property $view conflicts with a defined setter setView in yii\widgets\InputWidget.
         )
 
-    [1194] => Array
+    [1195] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/InputWidget.php
             [message] => Property $viewPath conflicts with a defined getter getViewPath in yii\widgets\InputWidget.
         )
 
-    [1195] => Array
+    [1196] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/InputWidget.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\widgets\InputWidget.
         )
 
-    [1196] => Array
+    [1197] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/LinkPager.php
             [message] => Property $id conflicts with a defined getter getId in yii\widgets\LinkPager.
         )
 
-    [1197] => Array
+    [1198] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/LinkPager.php
             [message] => Property $id conflicts with a defined setter setId in yii\widgets\LinkPager.
         )
 
-    [1198] => Array
+    [1199] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/LinkPager.php
             [message] => Property $view conflicts with a defined getter getView in yii\widgets\LinkPager.
         )
 
-    [1199] => Array
+    [1200] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/LinkPager.php
             [message] => Property $view conflicts with a defined setter setView in yii\widgets\LinkPager.
         )
 
-    [1200] => Array
+    [1201] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/LinkPager.php
             [message] => Property $viewPath conflicts with a defined getter getViewPath in yii\widgets\LinkPager.
         )
 
-    [1201] => Array
+    [1202] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/LinkPager.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\widgets\LinkPager.
         )
 
-    [1202] => Array
+    [1203] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/LinkSorter.php
             [message] => Property $id conflicts with a defined getter getId in yii\widgets\LinkSorter.
         )
 
-    [1203] => Array
+    [1204] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/LinkSorter.php
             [message] => Property $id conflicts with a defined setter setId in yii\widgets\LinkSorter.
         )
 
-    [1204] => Array
+    [1205] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/LinkSorter.php
             [message] => Property $view conflicts with a defined getter getView in yii\widgets\LinkSorter.
         )
 
-    [1205] => Array
+    [1206] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/LinkSorter.php
             [message] => Property $view conflicts with a defined setter setView in yii\widgets\LinkSorter.
         )
 
-    [1206] => Array
+    [1207] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/LinkSorter.php
             [message] => Property $viewPath conflicts with a defined getter getViewPath in yii\widgets\LinkSorter.
         )
 
-    [1207] => Array
+    [1208] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/LinkSorter.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\widgets\LinkSorter.
         )
 
-    [1208] => Array
+    [1209] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ListView.php
             [message] => Property $id conflicts with a defined getter getId in yii\widgets\ListView.
         )
 
-    [1209] => Array
+    [1210] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ListView.php
             [message] => Property $id conflicts with a defined setter setId in yii\widgets\ListView.
         )
 
-    [1210] => Array
+    [1211] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ListView.php
             [message] => Property $view conflicts with a defined getter getView in yii\widgets\ListView.
         )
 
-    [1211] => Array
+    [1212] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ListView.php
             [message] => Property $view conflicts with a defined setter setView in yii\widgets\ListView.
         )
 
-    [1212] => Array
+    [1213] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ListView.php
             [message] => Property $viewPath conflicts with a defined getter getViewPath in yii\widgets\ListView.
         )
 
-    [1213] => Array
+    [1214] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/ListView.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\widgets\ListView.
         )
 
-    [1214] => Array
+    [1215] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/MaskedInput.php
             [message] => Property $id conflicts with a defined getter getId in yii\widgets\MaskedInput.
         )
 
-    [1215] => Array
+    [1216] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/MaskedInput.php
             [message] => Property $id conflicts with a defined setter setId in yii\widgets\MaskedInput.
         )
 
-    [1216] => Array
+    [1217] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/MaskedInput.php
             [message] => Property $view conflicts with a defined getter getView in yii\widgets\MaskedInput.
         )
 
-    [1217] => Array
+    [1218] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/MaskedInput.php
             [message] => Property $view conflicts with a defined setter setView in yii\widgets\MaskedInput.
         )
 
-    [1218] => Array
+    [1219] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/MaskedInput.php
             [message] => Property $viewPath conflicts with a defined getter getViewPath in yii\widgets\MaskedInput.
         )
 
-    [1219] => Array
+    [1220] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/MaskedInput.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\widgets\MaskedInput.
         )
 
-    [1220] => Array
+    [1221] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Menu.php
             [message] => Property $id conflicts with a defined getter getId in yii\widgets\Menu.
         )
 
-    [1221] => Array
+    [1222] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Menu.php
             [message] => Property $id conflicts with a defined setter setId in yii\widgets\Menu.
         )
 
-    [1222] => Array
+    [1223] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Menu.php
             [message] => Property $view conflicts with a defined getter getView in yii\widgets\Menu.
         )
 
-    [1223] => Array
+    [1224] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Menu.php
             [message] => Property $view conflicts with a defined setter setView in yii\widgets\Menu.
         )
 
-    [1224] => Array
+    [1225] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Menu.php
             [message] => Property $viewPath conflicts with a defined getter getViewPath in yii\widgets\Menu.
         )
 
-    [1225] => Array
+    [1226] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Menu.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\widgets\Menu.
         )
 
-    [1226] => Array
+    [1227] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Pjax.php
             [message] => Property $id conflicts with a defined getter getId in yii\widgets\Pjax.
         )
 
-    [1227] => Array
+    [1228] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Pjax.php
             [message] => Property $id conflicts with a defined setter setId in yii\widgets\Pjax.
         )
 
-    [1228] => Array
+    [1229] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Pjax.php
             [message] => Property $view conflicts with a defined getter getView in yii\widgets\Pjax.
         )
 
-    [1229] => Array
+    [1230] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Pjax.php
             [message] => Property $view conflicts with a defined setter setView in yii\widgets\Pjax.
         )
 
-    [1230] => Array
+    [1231] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Pjax.php
             [message] => Property $viewPath conflicts with a defined getter getViewPath in yii\widgets\Pjax.
         )
 
-    [1231] => Array
+    [1232] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Pjax.php
             [message] => Property $behaviors conflicts with a defined getter getBehaviors in yii\widgets\Pjax.
         )
 
-    [1232] => Array
+    [1233] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Spaceless.php
             [message] => Property $id conflicts with a defined getter getId in yii\widgets\Spaceless.
         )
 
-    [1233] => Array
+    [1234] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Spaceless.php
             [message] => Property $id conflicts with a defined setter setId in yii\widgets\Spaceless.
         )
 
-    [1234] => Array
+    [1235] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Spaceless.php
             [message] => Property $view conflicts with a defined getter getView in yii\widgets\Spaceless.
         )
 
-    [1235] => Array
+    [1236] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Spaceless.php
             [message] => Property $view conflicts with a defined setter setView in yii\widgets\Spaceless.
         )
 
-    [1236] => Array
+    [1237] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Spaceless.php
             [message] => Property $viewPath conflicts with a defined getter getViewPath in yii\widgets\Spaceless.
         )
 
-    [1237] => Array
+    [1238] => Array
         (
             [line] => 
             [file] => /home/mspirkov/open-source/yiisoft/yiiframework.com/data/yii-2.0/framework/widgets/Spaceless.php
