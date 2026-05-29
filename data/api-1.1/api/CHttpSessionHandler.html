@@ -1,0 +1,335 @@
+<h1>CHttpSessionHandler</h1>
+<div id="nav">
+<a href="/doc/api/1.1/">All Packages</a>
+| <a href="#methods">Methods</a>
+</div>
+
+<table class="summaryTable docClass">
+<colgroup>
+	<col class="col-name" />
+	<col class="col-value" />
+</colgroup>
+<tr>
+  <th>Package</th>
+  <td><a href="/doc/api/1.1/#system.web">system.web</a></td>
+</tr>
+<tr>
+  <th>Inheritance</th>
+  <td>class CHttpSessionHandler</td>
+</tr>
+<tr>
+  <th>Implements</th>
+  <td>SessionHandlerInterface</td>
+</tr>
+<tr>
+  <th>Since</th>
+  <td>1.1.32</td>
+</tr>
+<tr>
+  <th>Source Code</th>
+  <td><a class="sourceLink" href="https://github.com/yiisoft/yii/blob/master/framework/web/CHttpSessionHandler.php">framework/web/CHttpSessionHandler.php</a></td>
+</tr>
+</table>
+
+<div id="classDescription">
+CHttpSessionHandler is an adapter that implements SessionHandlerInterface for CHttpSession.
+<br/><br/>
+Delegates all calls to CHttpSession's openSession/closeSession/etc. methods,
+allowing subclasses like CDbHttpSession to work without modification.</div>
+<a name="properties"></a>
+
+<a name="methods"></a>
+
+<div class="summary docMethod">
+<h2>Public Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summaryTable">
+<colgroup>
+	<col class="col-method" />
+	<col class="col-description" />
+	<col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+<tr id="__construct">
+  <td><a href="/doc/api/1.1/CHttpSessionHandler#__construct-detail">__construct()</a></td>
+  <td>Constructor.</td>
+  <td>CHttpSessionHandler</td>
+</tr>
+<tr id="close">
+  <td><a href="/doc/api/1.1/CHttpSessionHandler#close-detail">close()</a></td>
+  <td>Close the session.</td>
+  <td>CHttpSessionHandler</td>
+</tr>
+<tr id="destroy">
+  <td><a href="/doc/api/1.1/CHttpSessionHandler#destroy-detail">destroy()</a></td>
+  <td>Destroy a session.</td>
+  <td>CHttpSessionHandler</td>
+</tr>
+<tr id="gc">
+  <td><a href="/doc/api/1.1/CHttpSessionHandler#gc-detail">gc()</a></td>
+  <td>Cleanup old sessions.</td>
+  <td>CHttpSessionHandler</td>
+</tr>
+<tr id="open">
+  <td><a href="/doc/api/1.1/CHttpSessionHandler#open-detail">open()</a></td>
+  <td>Initialize session.</td>
+  <td>CHttpSessionHandler</td>
+</tr>
+<tr id="read">
+  <td><a href="/doc/api/1.1/CHttpSessionHandler#read-detail">read()</a></td>
+  <td>Read session data.</td>
+  <td>CHttpSessionHandler</td>
+</tr>
+<tr id="write">
+  <td><a href="/doc/api/1.1/CHttpSessionHandler#write-detail">write()</a></td>
+  <td>Write session data.</td>
+  <td>CHttpSessionHandler</td>
+</tr>
+</table>
+</div>
+<a name="events"></a>
+
+<h2>Method Details</h2>
+
+<div class="detailHeader" id="__construct-detail">
+__construct()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public void <b>__construct</b>(<a href="/doc/api/1.1/CHttpSession">CHttpSession</a> $session)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$session</td>
+  <td class="paramTypeCol"><a href="/doc/api/1.1/CHttpSession">CHttpSession</a></td>
+  <td class="paramDescCol"></td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/master/framework/web/CHttpSessionHandler.php#L31">framework/web/CHttpSessionHandler.php#31</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">__construct</span><span style="color: #007700">(</span><span style="color: #0000BB">CHttpSession&nbsp;$session</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_session</span><span style="color: #007700">=</span><span style="color: #0000BB">$session</span><span style="color: #007700">;<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Constructor.</p>
+
+
+<div class="detailHeader" id="close-detail">
+close()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public bool <b>close</b>()</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">bool</td>
+  <td class="paramDescCol"></td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/master/framework/web/CHttpSessionHandler.php#L53">framework/web/CHttpSessionHandler.php#53</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">close</span><span style="color: #007700">()<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_session</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">closeSession</span><span style="color: #007700">();<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Close the session.</p>
+
+
+<div class="detailHeader" id="destroy-detail">
+destroy()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public bool <b>destroy</b>(string $id)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$id</td>
+  <td class="paramTypeCol">string</td>
+  <td class="paramDescCol"></td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">bool</td>
+  <td class="paramDescCol"></td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/master/framework/web/CHttpSessionHandler.php#L87">framework/web/CHttpSessionHandler.php#87</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">destroy</span><span style="color: #007700">(</span><span style="color: #0000BB">$id</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_session</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">destroySession</span><span style="color: #007700">(</span><span style="color: #0000BB">$id</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Destroy a session.</p>
+
+
+<div class="detailHeader" id="gc-detail">
+gc()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public int|false <b>gc</b>(int $max_lifetime)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$max_lifetime</td>
+  <td class="paramTypeCol">int</td>
+  <td class="paramDescCol"></td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">int|false</td>
+  <td class="paramDescCol"></td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/master/framework/web/CHttpSessionHandler.php#L98">framework/web/CHttpSessionHandler.php#98</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">gc</span><span style="color: #007700">(</span><span style="color: #0000BB">$max_lifetime</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_session</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">gcSession</span><span style="color: #007700">(</span><span style="color: #0000BB">$max_lifetime</span><span style="color: #007700">)&nbsp;?&nbsp;</span><span style="color: #0000BB">0&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">;<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Cleanup old sessions.</p>
+
+
+<div class="detailHeader" id="open-detail">
+open()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public bool <b>open</b>(string $path, string $name)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$path</td>
+  <td class="paramTypeCol">string</td>
+  <td class="paramDescCol"></td>
+</tr>
+<tr>
+  <td class="paramNameCol">$name</td>
+  <td class="paramTypeCol">string</td>
+  <td class="paramDescCol"></td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">bool</td>
+  <td class="paramDescCol"></td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/master/framework/web/CHttpSessionHandler.php#L43">framework/web/CHttpSessionHandler.php#43</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">open</span><span style="color: #007700">(</span><span style="color: #0000BB">$path</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$name</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_session</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">openSession</span><span style="color: #007700">(</span><span style="color: #0000BB">$path</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$name</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Initialize session.</p>
+
+
+<div class="detailHeader" id="read-detail">
+read()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public string|false <b>read</b>(string $id)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$id</td>
+  <td class="paramTypeCol">string</td>
+  <td class="paramDescCol"></td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">string|false</td>
+  <td class="paramDescCol"></td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/master/framework/web/CHttpSessionHandler.php#L64">framework/web/CHttpSessionHandler.php#64</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">read</span><span style="color: #007700">(</span><span style="color: #0000BB">$id</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_session</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">readSession</span><span style="color: #007700">(</span><span style="color: #0000BB">$id</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Read session data.</p>
+
+
+<div class="detailHeader" id="write-detail">
+write()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public bool <b>write</b>(string $id, string $data)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$id</td>
+  <td class="paramTypeCol">string</td>
+  <td class="paramDescCol"></td>
+</tr>
+<tr>
+  <td class="paramNameCol">$data</td>
+  <td class="paramTypeCol">string</td>
+  <td class="paramDescCol"></td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">bool</td>
+  <td class="paramDescCol"></td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/master/framework/web/CHttpSessionHandler.php#L76">framework/web/CHttpSessionHandler.php#76</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">write</span><span style="color: #007700">(</span><span style="color: #0000BB">$id</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$data</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_session</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">writeSession</span><span style="color: #007700">(</span><span style="color: #0000BB">$id</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$data</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Write session data.</p>
+
+

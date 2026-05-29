@@ -1,0 +1,849 @@
+<h1>CMemCache</h1>
+<div id="nav">
+<a href="/doc/api/1.1/">All Packages</a>
+| <a href="#properties">Properties</a>
+| <a href="#methods">Methods</a>
+</div>
+
+<table class="summaryTable docClass">
+<colgroup>
+	<col class="col-name" />
+	<col class="col-value" />
+</colgroup>
+<tr>
+  <th>Package</th>
+  <td><a href="/doc/api/1.1/#system.caching">system.caching</a></td>
+</tr>
+<tr>
+  <th>Inheritance</th>
+  <td>class CMemCache &raquo;
+<a href="/doc/api/1.1/CCache">CCache</a> &raquo;
+<a href="/doc/api/1.1/CApplicationComponent">CApplicationComponent</a> &raquo;
+<a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr>
+  <th>Implements</th>
+  <td>ArrayAccess, <a href="/doc/api/1.1/ICache">ICache</a>, <a href="/doc/api/1.1/IApplicationComponent">IApplicationComponent</a></td>
+</tr>
+<tr>
+  <th>Since</th>
+  <td>1.0</td>
+</tr>
+<tr>
+  <th>Source Code</th>
+  <td><a class="sourceLink" href="https://github.com/yiisoft/yii/blob/master/framework/caching/CMemCache.php">framework/caching/CMemCache.php</a></td>
+</tr>
+</table>
+
+<div id="classDescription">
+CMemCache implements a cache application component based on <a href="https://memcached.org/">memcached</a>.
+<br/><br/>
+CMemCache can be configured with a list of memcache servers by settings
+its <a href="/doc/api/1.1/CMemCache#setServers">servers</a> property. By default, CMemCache assumes
+there is a memcache server running on localhost at port 11211.
+<br/><br/>
+See <a href="/doc/api/1.1/CCache">CCache</a> manual for common cache operations that are supported by CMemCache.
+<br/><br/>
+Note, there is no security measure to protected data in memcache.
+All data in memcache can be accessed by any process running in the system.
+<br/><br/>
+To use CMemCache as the cache application component, configure the application as follows,
+<pre>
+array(
+    &#039;components&#039;=&gt;array(
+        &#039;cache&#039;=&gt;array(
+            &#039;class&#039;=&gt;&#039;CMemCache&#039;,
+            &#039;servers&#039;=&gt;array(
+                array(
+                    &#039;host&#039;=&gt;&#039;server1&#039;,
+                    &#039;port&#039;=&gt;11211,
+                    &#039;weight&#039;=&gt;60,
+                ),
+                array(
+                    &#039;host&#039;=&gt;&#039;server2&#039;,
+                    &#039;port&#039;=&gt;11211,
+                    &#039;weight&#039;=&gt;40,
+                ),
+            ),
+        ),
+    ),
+)
+</pre>
+In the above, two memcache servers are used: server1 and server2.
+You can configure more properties of every server, including:
+host, port, persistent, weight, timeout, retryInterval, status.
+See <a href="https://www.php.net/manual/en/function.memcache-addserver.php">https://www.php.net/manual/en/function.memcache-addserver.php</a>
+for more details.
+<br/><br/>
+CMemCache can also be used with <a href="https://pecl.php.net/package/memcached">memcached</a>.
+To do so, set <a href="/doc/api/1.1/CMemCache#useMemcached">useMemcached</a> to be true.</div>
+<a name="properties"></a>
+
+<div class="summary docProperty">
+<h2>Public Properties</h2>
+
+<p><a href="#" class="toggle">Hide inherited properties</a></p>
+
+<table class="summaryTable">
+<colgroup>
+	<col class="col-property" />
+	<col class="col-type" />
+	<col class="col-description" />
+	<col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Property</th><th>Type</th><th>Description</th><th>Defined By</th>
+</tr>
+<tr class="inherited" id="behaviors">
+  <td><a href="/doc/api/1.1/CApplicationComponent#behaviors-detail">behaviors</a></td>
+  <td>array</td>
+  <td>the behaviors that should be attached to this component.</td>
+  <td><a href="/doc/api/1.1/CApplicationComponent">CApplicationComponent</a></td>
+</tr>
+<tr class="inherited" id="hashKey">
+  <td><a href="/doc/api/1.1/CCache#hashKey-detail">hashKey</a></td>
+  <td>boolean</td>
+  <td>whether to md5-hash the cache key for normalization purposes.</td>
+  <td><a href="/doc/api/1.1/CCache">CCache</a></td>
+</tr>
+<tr class="inherited" id="isInitialized">
+  <td><a href="/doc/api/1.1/CApplicationComponent#isInitialized-detail">isInitialized</a></td>
+  <td>boolean</td>
+  <td>Checks if this application component has been initialized.</td>
+  <td><a href="/doc/api/1.1/CApplicationComponent">CApplicationComponent</a></td>
+</tr>
+<tr class="inherited" id="keyPrefix">
+  <td><a href="/doc/api/1.1/CCache#keyPrefix-detail">keyPrefix</a></td>
+  <td>string</td>
+  <td>a string prefixed to every cache key so that it is unique.</td>
+  <td><a href="/doc/api/1.1/CCache">CCache</a></td>
+</tr>
+<tr id="memCache">
+  <td><a href="/doc/api/1.1/CMemCache#memCache-detail">memCache</a></td>
+  <td>Memcache|Memcached</td>
+  <td>the memcache instance (or memcached if <a href="/doc/api/1.1/CMemCache#useMemcached">useMemcached</a> is true) used by this component.</td>
+  <td>CMemCache</td>
+</tr>
+<tr class="inherited" id="serializer">
+  <td><a href="/doc/api/1.1/CCache#serializer-detail">serializer</a></td>
+  <td>array|boolean</td>
+  <td>the functions used to serialize and unserialize cached data.</td>
+  <td><a href="/doc/api/1.1/CCache">CCache</a></td>
+</tr>
+<tr id="servers">
+  <td><a href="/doc/api/1.1/CMemCache#servers-detail">servers</a></td>
+  <td>array</td>
+  <td>list of memcache server configurations.</td>
+  <td>CMemCache</td>
+</tr>
+<tr id="useMemcached">
+  <td><a href="/doc/api/1.1/CMemCache#useMemcached-detail">useMemcached</a></td>
+  <td>boolean</td>
+  <td>whether to use memcached or memcache as the underlying caching extension.</td>
+  <td>CMemCache</td>
+</tr>
+</table>
+</div>
+<a name="methods"></a>
+
+<div class="summary docMethod">
+<h2>Public Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summaryTable">
+<colgroup>
+	<col class="col-method" />
+	<col class="col-description" />
+	<col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+<tr class="inherited" id="__call">
+  <td><a href="/doc/api/1.1/CComponent#__call-detail">__call()</a></td>
+  <td>Calls the named method which is not a class method.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="__get">
+  <td><a href="/doc/api/1.1/CComponent#__get-detail">__get()</a></td>
+  <td>Returns a property value, an event handler list or a behavior based on its name.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="__isset">
+  <td><a href="/doc/api/1.1/CComponent#__isset-detail">__isset()</a></td>
+  <td>Checks if a property value is null.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="__set">
+  <td><a href="/doc/api/1.1/CComponent#__set-detail">__set()</a></td>
+  <td>Sets value of a component property.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="__unset">
+  <td><a href="/doc/api/1.1/CComponent#__unset-detail">__unset()</a></td>
+  <td>Sets a component property to be null.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="add">
+  <td><a href="/doc/api/1.1/CCache#add-detail">add()</a></td>
+  <td>Stores a value identified by a key into cache if the cache does not contain this key.</td>
+  <td><a href="/doc/api/1.1/CCache">CCache</a></td>
+</tr>
+<tr class="inherited" id="asa">
+  <td><a href="/doc/api/1.1/CComponent#asa-detail">asa()</a></td>
+  <td>Returns the named behavior object.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="attachBehavior">
+  <td><a href="/doc/api/1.1/CComponent#attachBehavior-detail">attachBehavior()</a></td>
+  <td>Attaches a behavior to this component.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="attachBehaviors">
+  <td><a href="/doc/api/1.1/CComponent#attachBehaviors-detail">attachBehaviors()</a></td>
+  <td>Attaches a list of behaviors to the component.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="attachEventHandler">
+  <td><a href="/doc/api/1.1/CComponent#attachEventHandler-detail">attachEventHandler()</a></td>
+  <td>Attaches an event handler to an event.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="canGetProperty">
+  <td><a href="/doc/api/1.1/CComponent#canGetProperty-detail">canGetProperty()</a></td>
+  <td>Determines whether a property can be read.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="canSetProperty">
+  <td><a href="/doc/api/1.1/CComponent#canSetProperty-detail">canSetProperty()</a></td>
+  <td>Determines whether a property can be set.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="delete">
+  <td><a href="/doc/api/1.1/CCache#delete-detail">delete()</a></td>
+  <td>Deletes a value with the specified key from cache</td>
+  <td><a href="/doc/api/1.1/CCache">CCache</a></td>
+</tr>
+<tr class="inherited" id="detachBehavior">
+  <td><a href="/doc/api/1.1/CComponent#detachBehavior-detail">detachBehavior()</a></td>
+  <td>Detaches a behavior from the component.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="detachBehaviors">
+  <td><a href="/doc/api/1.1/CComponent#detachBehaviors-detail">detachBehaviors()</a></td>
+  <td>Detaches all behaviors from the component.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="detachEventHandler">
+  <td><a href="/doc/api/1.1/CComponent#detachEventHandler-detail">detachEventHandler()</a></td>
+  <td>Detaches an existing event handler.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="disableBehavior">
+  <td><a href="/doc/api/1.1/CComponent#disableBehavior-detail">disableBehavior()</a></td>
+  <td>Disables an attached behavior.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="disableBehaviors">
+  <td><a href="/doc/api/1.1/CComponent#disableBehaviors-detail">disableBehaviors()</a></td>
+  <td>Disables all behaviors attached to this component.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="enableBehavior">
+  <td><a href="/doc/api/1.1/CComponent#enableBehavior-detail">enableBehavior()</a></td>
+  <td>Enables an attached behavior.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="enableBehaviors">
+  <td><a href="/doc/api/1.1/CComponent#enableBehaviors-detail">enableBehaviors()</a></td>
+  <td>Enables all behaviors attached to this component.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="evaluateExpression">
+  <td><a href="/doc/api/1.1/CComponent#evaluateExpression-detail">evaluateExpression()</a></td>
+  <td>Evaluates a PHP expression or callback under the context of this component.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="flush">
+  <td><a href="/doc/api/1.1/CCache#flush-detail">flush()</a></td>
+  <td>Deletes all values from cache.</td>
+  <td><a href="/doc/api/1.1/CCache">CCache</a></td>
+</tr>
+<tr class="inherited" id="get">
+  <td><a href="/doc/api/1.1/CCache#get-detail">get()</a></td>
+  <td>Retrieves a value from cache with a specified key.</td>
+  <td><a href="/doc/api/1.1/CCache">CCache</a></td>
+</tr>
+<tr class="inherited" id="getEventHandlers">
+  <td><a href="/doc/api/1.1/CComponent#getEventHandlers-detail">getEventHandlers()</a></td>
+  <td>Returns the list of attached event handlers for an event.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="getIsInitialized">
+  <td><a href="/doc/api/1.1/CApplicationComponent#getIsInitialized-detail">getIsInitialized()</a></td>
+  <td>Checks if this application component has been initialized.</td>
+  <td><a href="/doc/api/1.1/CApplicationComponent">CApplicationComponent</a></td>
+</tr>
+<tr id="getMemCache">
+  <td><a href="/doc/api/1.1/CMemCache#getMemCache-detail">getMemCache()</a></td>
+  <td>Returns the memcache instance (or memcached if <a href="/doc/api/1.1/CMemCache#useMemcached">useMemcached</a> is true) used by this component.</td>
+  <td>CMemCache</td>
+</tr>
+<tr id="getServers">
+  <td><a href="/doc/api/1.1/CMemCache#getServers-detail">getServers()</a></td>
+  <td>Returns list of memcache server configurations. Each element is a <a href="/doc/api/1.1/CMemCacheServerConfiguration">CMemCacheServerConfiguration</a>.</td>
+  <td>CMemCache</td>
+</tr>
+<tr class="inherited" id="hasEvent">
+  <td><a href="/doc/api/1.1/CComponent#hasEvent-detail">hasEvent()</a></td>
+  <td>Determines whether an event is defined.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="hasEventHandler">
+  <td><a href="/doc/api/1.1/CComponent#hasEventHandler-detail">hasEventHandler()</a></td>
+  <td>Checks whether the named event has attached handlers.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="hasProperty">
+  <td><a href="/doc/api/1.1/CComponent#hasProperty-detail">hasProperty()</a></td>
+  <td>Determines whether a property is defined.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr id="init">
+  <td><a href="/doc/api/1.1/CMemCache#init-detail">init()</a></td>
+  <td>Initializes this application component.</td>
+  <td>CMemCache</td>
+</tr>
+<tr class="inherited" id="mget">
+  <td><a href="/doc/api/1.1/CCache#mget-detail">mget()</a></td>
+  <td>Retrieves multiple values from cache with the specified keys.</td>
+  <td><a href="/doc/api/1.1/CCache">CCache</a></td>
+</tr>
+<tr class="inherited" id="offsetExists">
+  <td><a href="/doc/api/1.1/CCache#offsetExists-detail">offsetExists()</a></td>
+  <td>Returns whether there is a cache entry with a specified key.</td>
+  <td><a href="/doc/api/1.1/CCache">CCache</a></td>
+</tr>
+<tr class="inherited" id="offsetGet">
+  <td><a href="/doc/api/1.1/CCache#offsetGet-detail">offsetGet()</a></td>
+  <td>Retrieves the value from cache with a specified key.</td>
+  <td><a href="/doc/api/1.1/CCache">CCache</a></td>
+</tr>
+<tr class="inherited" id="offsetSet">
+  <td><a href="/doc/api/1.1/CCache#offsetSet-detail">offsetSet()</a></td>
+  <td>Stores the value identified by a key into cache.</td>
+  <td><a href="/doc/api/1.1/CCache">CCache</a></td>
+</tr>
+<tr class="inherited" id="offsetUnset">
+  <td><a href="/doc/api/1.1/CCache#offsetUnset-detail">offsetUnset()</a></td>
+  <td>Deletes the value with the specified key from cache</td>
+  <td><a href="/doc/api/1.1/CCache">CCache</a></td>
+</tr>
+<tr class="inherited" id="raiseEvent">
+  <td><a href="/doc/api/1.1/CComponent#raiseEvent-detail">raiseEvent()</a></td>
+  <td>Raises an event.</td>
+  <td><a href="/doc/api/1.1/CComponent">CComponent</a></td>
+</tr>
+<tr class="inherited" id="set">
+  <td><a href="/doc/api/1.1/CCache#set-detail">set()</a></td>
+  <td>Stores a value identified by a key into cache.</td>
+  <td><a href="/doc/api/1.1/CCache">CCache</a></td>
+</tr>
+<tr id="setServers">
+  <td><a href="/doc/api/1.1/CMemCache#setServers-detail">setServers()</a></td>
+  <td>Sets list of memcache server configurations. Each element must be an array
+with the following keys: host, port, persistent, weight, timeout, retryInterval, status.</td>
+  <td>CMemCache</td>
+</tr>
+</table>
+</div>
+<div class="summary docMethod">
+<h2>Protected Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summaryTable">
+<colgroup>
+	<col class="col-method" />
+	<col class="col-description" />
+	<col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+<tr id="addValue">
+  <td><a href="/doc/api/1.1/CMemCache#addValue-detail">addValue()</a></td>
+  <td>Stores a value identified by a key into cache if the cache does not contain this key.</td>
+  <td>CMemCache</td>
+</tr>
+<tr id="deleteValue">
+  <td><a href="/doc/api/1.1/CMemCache#deleteValue-detail">deleteValue()</a></td>
+  <td>Deletes a value with the specified key from cache</td>
+  <td>CMemCache</td>
+</tr>
+<tr id="flushValues">
+  <td><a href="/doc/api/1.1/CMemCache#flushValues-detail">flushValues()</a></td>
+  <td>Deletes all values from cache.</td>
+  <td>CMemCache</td>
+</tr>
+<tr class="inherited" id="generateUniqueKey">
+  <td><a href="/doc/api/1.1/CCache#generateUniqueKey-detail">generateUniqueKey()</a></td>
+  <td></td>
+  <td><a href="/doc/api/1.1/CCache">CCache</a></td>
+</tr>
+<tr id="getValue">
+  <td><a href="/doc/api/1.1/CMemCache#getValue-detail">getValue()</a></td>
+  <td>Retrieves a value from cache with a specified key.</td>
+  <td>CMemCache</td>
+</tr>
+<tr id="getValues">
+  <td><a href="/doc/api/1.1/CMemCache#getValues-detail">getValues()</a></td>
+  <td>Retrieves multiple values from cache with the specified keys.</td>
+  <td>CMemCache</td>
+</tr>
+<tr id="normalizeDuration">
+  <td><a href="/doc/api/1.1/CMemCache#normalizeDuration-detail">normalizeDuration()</a></td>
+  <td>Normalizes duration value.</td>
+  <td>CMemCache</td>
+</tr>
+<tr id="setValue">
+  <td><a href="/doc/api/1.1/CMemCache#setValue-detail">setValue()</a></td>
+  <td>Stores a value identified by a key in cache.</td>
+  <td>CMemCache</td>
+</tr>
+</table>
+</div>
+<a name="events"></a>
+
+<h2>Property Details</h2>
+<div class="detailHeader" id="memCache-detail">
+memCache<span class="detailHeaderTag">
+property
+ <em>read-only</em> </span>
+</div>
+
+<div class="signature">
+public Memcache|Memcached <a href="/doc/api/1.1/CMemCache#getMemCache"><b>getMemCache</b></a>()</div>
+
+<p>the memcache instance (or memcached if <a href="/doc/api/1.1/CMemCache#useMemcached">useMemcached</a> is true) used by this component.</p>
+
+
+<div class="detailHeader" id="servers-detail">
+servers<span class="detailHeaderTag">
+property
+</span>
+</div>
+
+<div class="signature">
+public array <a href="/doc/api/1.1/CMemCache#getServers"><b>getServers</b></a>()<br/>public void <a href="/doc/api/1.1/CMemCache#setServers"><b>setServers</b></a>(array $config)</div>
+
+<p>list of memcache server configurations. Each element is a <a href="/doc/api/1.1/CMemCacheServerConfiguration">CMemCacheServerConfiguration</a>.</p>
+
+
+<div class="detailHeader" id="useMemcached-detail">
+useMemcached<span class="detailHeaderTag">
+property
+</span>
+</div>
+
+<div class="signature">
+public boolean <b>$useMemcached</b>;</div>
+
+<p>whether to use memcached or memcache as the underlying caching extension.
+If true <a href="https://pecl.php.net/package/memcached">memcached</a> will be used.
+If false <a href="https://pecl.php.net/package/memcache">memcache</a>. will be used.
+Defaults to false.</p>
+
+
+<h2>Method Details</h2>
+
+<div class="detailHeader" id="addValue-detail">
+addValue()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+protected boolean <b>addValue</b>(string $key, string $value, integer $duration)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$key</td>
+  <td class="paramTypeCol">string</td>
+  <td class="paramDescCol">the key identifying the value to be cached</td>
+</tr>
+<tr>
+  <td class="paramNameCol">$value</td>
+  <td class="paramTypeCol">string</td>
+  <td class="paramDescCol">the value to be cached</td>
+</tr>
+<tr>
+  <td class="paramNameCol">$duration</td>
+  <td class="paramTypeCol">integer</td>
+  <td class="paramDescCol">the number of seconds in which the cached value will expire. 0 means never expire.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">true if the value is successfully stored into cache, false otherwise</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/master/framework/caching/CMemCache.php#L187">framework/caching/CMemCache.php#187</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">protected&nbsp;function&nbsp;</span><span style="color: #0000BB">addValue</span><span style="color: #007700">(</span><span style="color: #0000BB">$key</span><span style="color: #007700">,</span><span style="color: #0000BB">$value</span><span style="color: #007700">,</span><span style="color: #0000BB">$duration</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$expire&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">normalizeDuration</span><span style="color: #007700">(</span><span style="color: #0000BB">$duration</span><span style="color: #007700">);<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">useMemcached&nbsp;</span><span style="color: #007700">?&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_cache</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">add</span><span style="color: #007700">(</span><span style="color: #0000BB">$key</span><span style="color: #007700">,</span><span style="color: #0000BB">$value</span><span style="color: #007700">,</span><span style="color: #0000BB">$expire</span><span style="color: #007700">)&nbsp;:&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_cache</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">add</span><span style="color: #007700">(</span><span style="color: #0000BB">$key</span><span style="color: #007700">,</span><span style="color: #0000BB">$value</span><span style="color: #007700">,</span><span style="color: #0000BB">0</span><span style="color: #007700">,</span><span style="color: #0000BB">$expire</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Stores a value identified by a key into cache if the cache does not contain this key.
+This is the implementation of the method declared in the parent class.</p>
+
+
+<div class="detailHeader" id="deleteValue-detail">
+deleteValue()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+protected boolean <b>deleteValue</b>(string $key)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$key</td>
+  <td class="paramTypeCol">string</td>
+  <td class="paramDescCol">the key of the value to be deleted</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">if no error happens during deletion</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/master/framework/caching/CMemCache.php#L225">framework/caching/CMemCache.php#225</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">protected&nbsp;function&nbsp;</span><span style="color: #0000BB">deleteValue</span><span style="color: #007700">(</span><span style="color: #0000BB">$key</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_cache</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">delete</span><span style="color: #007700">(</span><span style="color: #0000BB">$key</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Deletes a value with the specified key from cache
+This is the implementation of the method declared in the parent class.</p>
+
+
+<div class="detailHeader" id="flushValues-detail">
+flushValues()
+<span class="detailHeaderTag">
+method
+(available since v1.1.5)
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+protected boolean <b>flushValues</b>()</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether the flush operation was successful.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/master/framework/caching/CMemCache.php#L236">framework/caching/CMemCache.php#236</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">protected&nbsp;function&nbsp;</span><span style="color: #0000BB">flushValues</span><span style="color: #007700">()<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_cache</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">flush</span><span style="color: #007700">();<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Deletes all values from cache.
+This is the implementation of the method declared in the parent class.</p>
+
+
+<div class="detailHeader" id="getMemCache-detail">
+getMemCache()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public Memcache|Memcached <b>getMemCache</b>()</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">Memcache|Memcached</td>
+  <td class="paramDescCol">the memcache instance (or memcached if <a href="/doc/api/1.1/CMemCache#useMemcached">useMemcached</a> is true) used by this component.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/master/framework/caching/CMemCache.php#L108">framework/caching/CMemCache.php#108</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">getMemCache</span><span style="color: #007700">()<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_cache</span><span style="color: #007700">!==</span><span style="color: #0000BB">null</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_cache</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;else<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$extension</span><span style="color: #007700">=</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">useMemcached&nbsp;</span><span style="color: #007700">?&nbsp;</span><span style="color: #DD0000">'memcached'&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">'memcache'</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(!</span><span style="color: #0000BB">extension_loaded</span><span style="color: #007700">(</span><span style="color: #0000BB">$extension</span><span style="color: #007700">))<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;throw&nbsp;new&nbsp;</span><span style="color: #0000BB">CException</span><span style="color: #007700">(</span><span style="color: #0000BB">Yii</span><span style="color: #007700">::</span><span style="color: #0000BB">t</span><span style="color: #007700">(</span><span style="color: #DD0000">'yii'</span><span style="color: #007700">,</span><span style="color: #DD0000">"CMemCache&nbsp;requires&nbsp;PHP&nbsp;{extension}&nbsp;extension&nbsp;to&nbsp;be&nbsp;loaded."</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array(</span><span style="color: #DD0000">'{extension}'</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">$extension</span><span style="color: #007700">)));<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_cache</span><span style="color: #007700">=</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">useMemcached&nbsp;</span><span style="color: #007700">?&nbsp;new&nbsp;</span><span style="color: #0000BB">Memcached&nbsp;</span><span style="color: #007700">:&nbsp;new&nbsp;</span><span style="color: #0000BB">Memcache</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br />}</span>
+</span>
+</code></div>
+</div>
+<p></p>
+
+
+<div class="detailHeader" id="getServers-detail">
+getServers()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public array <b>getServers</b>()</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">array</td>
+  <td class="paramDescCol">list of memcache server configurations. Each element is a <a href="/doc/api/1.1/CMemCacheServerConfiguration">CMemCacheServerConfiguration</a>.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/master/framework/caching/CMemCache.php#L125">framework/caching/CMemCache.php#125</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">getServers</span><span style="color: #007700">()<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_servers</span><span style="color: #007700">;<br />}</span>
+</span>
+</code></div>
+</div>
+<p></p>
+
+
+<div class="detailHeader" id="getValue-detail">
+getValue()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+protected string|boolean <b>getValue</b>(string $key)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$key</td>
+  <td class="paramTypeCol">string</td>
+  <td class="paramDescCol">a unique key identifying the cached value</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">string|boolean</td>
+  <td class="paramDescCol">the value stored in cache, false if the value is not in the cache or expired.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/master/framework/caching/CMemCache.php#L147">framework/caching/CMemCache.php#147</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">protected&nbsp;function&nbsp;</span><span style="color: #0000BB">getValue</span><span style="color: #007700">(</span><span style="color: #0000BB">$key</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_cache</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">get</span><span style="color: #007700">(</span><span style="color: #0000BB">$key</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Retrieves a value from cache with a specified key.
+This is the implementation of the method declared in the parent class.</p>
+
+
+<div class="detailHeader" id="getValues-detail">
+getValues()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+protected array <b>getValues</b>(array $keys)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$keys</td>
+  <td class="paramTypeCol">array</td>
+  <td class="paramDescCol">a list of keys identifying the cached values</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">array</td>
+  <td class="paramDescCol">a list of cached values indexed by the keys</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/master/framework/caching/CMemCache.php#L157">framework/caching/CMemCache.php#157</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">protected&nbsp;function&nbsp;</span><span style="color: #0000BB">getValues</span><span style="color: #007700">(</span><span style="color: #0000BB">$keys</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">useMemcached&nbsp;</span><span style="color: #007700">?&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_cache</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getMulti</span><span style="color: #007700">(</span><span style="color: #0000BB">$keys</span><span style="color: #007700">)&nbsp;:&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_cache</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">get</span><span style="color: #007700">(</span><span style="color: #0000BB">$keys</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Retrieves multiple values from cache with the specified keys.</p>
+
+
+<div class="detailHeader" id="init-detail">
+init()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public void <b>init</b>()</div>
+</td></tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/master/framework/caching/CMemCache.php#L85">framework/caching/CMemCache.php#85</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">init</span><span style="color: #007700">()<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">parent</span><span style="color: #007700">::</span><span style="color: #0000BB">init</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$servers</span><span style="color: #007700">=</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getServers</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$cache</span><span style="color: #007700">=</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getMemCache</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">count</span><span style="color: #007700">(</span><span style="color: #0000BB">$servers</span><span style="color: #007700">))<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foreach(</span><span style="color: #0000BB">$servers&nbsp;</span><span style="color: #007700">as&nbsp;</span><span style="color: #0000BB">$server</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">useMemcached</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$cache</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">addServer</span><span style="color: #007700">(</span><span style="color: #0000BB">$server</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">host</span><span style="color: #007700">,</span><span style="color: #0000BB">$server</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">port</span><span style="color: #007700">,</span><span style="color: #0000BB">$server</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">weight</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$cache</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">addServer</span><span style="color: #007700">(</span><span style="color: #0000BB">$server</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">host</span><span style="color: #007700">,</span><span style="color: #0000BB">$server</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">port</span><span style="color: #007700">,</span><span style="color: #0000BB">$server</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">persistent</span><span style="color: #007700">,</span><span style="color: #0000BB">$server</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">weight</span><span style="color: #007700">,</span><span style="color: #0000BB">$server</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">timeout</span><span style="color: #007700">,</span><span style="color: #0000BB">$server</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">retryInterval</span><span style="color: #007700">,</span><span style="color: #0000BB">$server</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">status</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br />&nbsp;&nbsp;&nbsp;&nbsp;else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$cache</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">addServer</span><span style="color: #007700">(</span><span style="color: #DD0000">'localhost'</span><span style="color: #007700">,</span><span style="color: #0000BB">11211</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Initializes this application component.
+This method is required by the <a href="/doc/api/1.1/IApplicationComponent">IApplicationComponent</a> interface.
+It creates the memcache instance and adds memcache servers.</p>
+
+
+<div class="detailHeader" id="normalizeDuration-detail">
+normalizeDuration()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+protected int <b>normalizeDuration</b>(int $duration)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$duration</td>
+  <td class="paramTypeCol">int</td>
+  <td class="paramDescCol"></td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">int</td>
+  <td class="paramDescCol"></td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/master/framework/caching/CMemCache.php#L206">framework/caching/CMemCache.php#206</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">protected&nbsp;function&nbsp;</span><span style="color: #0000BB">normalizeDuration</span><span style="color: #007700">(</span><span style="color: #0000BB">$duration</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(</span><span style="color: #0000BB">$duration&nbsp;</span><span style="color: #007700">&lt;&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(</span><span style="color: #0000BB">$duration&nbsp;</span><span style="color: #007700">&lt;&nbsp;</span><span style="color: #0000BB">2592001</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$duration</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$duration&nbsp;</span><span style="color: #007700">+&nbsp;</span><span style="color: #0000BB">time</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+</span>
+</code></div>
+</div>
+<p>Normalizes duration value.
+Ported code from yii2 after identifying issue with memcache falsely handling short term duration based on unix timestamps</p>
+
+<div class="SeeAlso">
+<h4>See Also</h4>
+<ul>
+	<li><a href="https://github.com/yiisoft/yii2/issues/17710">https://github.com/yiisoft/yii2/issues/17710</a></li>
+	<li><a href="https://secure.php.net/manual/en/memcache.set.php">https://secure.php.net/manual/en/memcache.set.php</a></li>
+	<li><a href="https://secure.php.net/manual/en/memcached.expiration.php">https://secure.php.net/manual/en/memcached.expiration.php</a></li>
+	<li><a href="https://github.com/php-memcached-dev/php-memcached/issues/368#issuecomment-359137077">https://github.com/php-memcached-dev/php-memcached/issues/368#issuecomment-359137077</a></li>
+</ul>
+</div>
+
+<div class="detailHeader" id="setServers-detail">
+setServers()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public void <b>setServers</b>(array $config)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$config</td>
+  <td class="paramTypeCol">array</td>
+  <td class="paramDescCol">list of memcache server configurations. Each element must be an array
+with the following keys: host, port, persistent, weight, timeout, retryInterval, status.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/master/framework/caching/CMemCache.php#L135">framework/caching/CMemCache.php#135</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">setServers</span><span style="color: #007700">(</span><span style="color: #0000BB">$config</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;foreach(</span><span style="color: #0000BB">$config&nbsp;</span><span style="color: #007700">as&nbsp;</span><span style="color: #0000BB">$c</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_servers</span><span style="color: #007700">[]=new&nbsp;</span><span style="color: #0000BB">CMemCacheServerConfiguration</span><span style="color: #007700">(</span><span style="color: #0000BB">$c</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p></p>
+
+<div class="SeeAlso">
+<h4>See Also</h4>
+<ul>
+	<li><a href="https://www.php.net/manual/en/function.Memcache-addServer.php">https://www.php.net/manual/en/function.Memcache-addServer.php</a></li>
+</ul>
+</div>
+
+<div class="detailHeader" id="setValue-detail">
+setValue()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+protected boolean <b>setValue</b>(string $key, string $value, integer $duration)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$key</td>
+  <td class="paramTypeCol">string</td>
+  <td class="paramDescCol">the key identifying the value to be cached</td>
+</tr>
+<tr>
+  <td class="paramNameCol">$value</td>
+  <td class="paramTypeCol">string</td>
+  <td class="paramDescCol">the value to be cached</td>
+</tr>
+<tr>
+  <td class="paramNameCol">$duration</td>
+  <td class="paramTypeCol">integer</td>
+  <td class="paramDescCol">the number of seconds in which the cached value will expire. 0 means never expire.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">true if the value is successfully stored into cache, false otherwise</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/master/framework/caching/CMemCache.php#L171">framework/caching/CMemCache.php#171</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">protected&nbsp;function&nbsp;</span><span style="color: #0000BB">setValue</span><span style="color: #007700">(</span><span style="color: #0000BB">$key</span><span style="color: #007700">,</span><span style="color: #0000BB">$value</span><span style="color: #007700">,</span><span style="color: #0000BB">$duration</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$expire&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">normalizeDuration</span><span style="color: #007700">(</span><span style="color: #0000BB">$duration</span><span style="color: #007700">);<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">useMemcached&nbsp;</span><span style="color: #007700">?&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_cache</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">set</span><span style="color: #007700">(</span><span style="color: #0000BB">$key</span><span style="color: #007700">,</span><span style="color: #0000BB">$value</span><span style="color: #007700">,</span><span style="color: #0000BB">$expire</span><span style="color: #007700">)&nbsp;:&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_cache</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">set</span><span style="color: #007700">(</span><span style="color: #0000BB">$key</span><span style="color: #007700">,</span><span style="color: #0000BB">$value</span><span style="color: #007700">,</span><span style="color: #0000BB">0</span><span style="color: #007700">,</span><span style="color: #0000BB">$expire</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Stores a value identified by a key in cache.
+This is the implementation of the method declared in the parent class.</p>
+
+
